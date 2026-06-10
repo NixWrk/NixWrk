@@ -1,0 +1,258 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">NixWrk animated document engineering banner</title>
+  <desc id="desc">Animated SVG banner showing a local-first document engineering pipeline from scanned pages through OCR, hOCR, searchable PDF, Zotero, and local AI.</desc>
+  <style>
+    :root {
+      --bg: #0b1020;
+      --panel: #121a2e;
+      --ink: #e5eefb;
+      --muted: #8fa3bf;
+      --grid: #26324f;
+      --teal: #2dd4bf;
+      --green: #84cc16;
+      --amber: #fbbf24;
+      --blue: #60a5fa;
+      --rose: #fb7185;
+    }
+
+    .grid-line {
+      stroke: var(--grid);
+      stroke-width: 1;
+      opacity: .42;
+    }
+
+    .title {
+      font: 700 52px/1.1 ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+      fill: var(--ink);
+      letter-spacing: 0;
+    }
+
+    .subtitle {
+      font: 500 22px/1.4 ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+      fill: var(--muted);
+      letter-spacing: 0;
+    }
+
+    .small {
+      font: 600 18px/1.2 ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+      letter-spacing: 0;
+    }
+
+    .label {
+      font: 700 16px/1.1 ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+      fill: var(--ink);
+      letter-spacing: 0;
+    }
+
+    .micro {
+      font: 600 12px/1 ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+      fill: var(--muted);
+      letter-spacing: 0;
+    }
+
+    .node {
+      fill: rgba(18, 26, 46, .92);
+      stroke: rgba(229, 238, 251, .18);
+      stroke-width: 1.2;
+    }
+
+    .node-glow {
+      filter: drop-shadow(0 0 12px rgba(45, 212, 191, .32));
+    }
+
+    .wire {
+      stroke: rgba(143, 163, 191, .42);
+      stroke-width: 2.2;
+      stroke-linecap: round;
+    }
+
+    .pulse {
+      animation: pulse 4.8s ease-in-out infinite;
+      transform-origin: center;
+    }
+
+    .scan {
+      animation: scan 3.8s ease-in-out infinite;
+    }
+
+    .float-a {
+      animation: floatA 7s ease-in-out infinite;
+    }
+
+    .float-b {
+      animation: floatB 8s ease-in-out infinite;
+    }
+
+    .dash {
+      stroke-dasharray: 8 12;
+      animation: dash 14s linear infinite;
+    }
+
+    .cursor {
+      animation: blink 1.1s steps(2, end) infinite;
+    }
+
+    .spark {
+      animation: spark 5s ease-in-out infinite;
+      transform-origin: center;
+    }
+
+    .spark.two {
+      animation-delay: .9s;
+    }
+
+    .spark.three {
+      animation-delay: 1.8s;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: .52; transform: scale(1); }
+      50% { opacity: 1; transform: scale(1.045); }
+    }
+
+    @keyframes scan {
+      0%, 100% { transform: translateY(-74px); opacity: .1; }
+      18%, 80% { opacity: .86; }
+      50% { transform: translateY(74px); opacity: .95; }
+    }
+
+    @keyframes floatA {
+      0%, 100% { transform: translate3d(0, 0, 0); }
+      50% { transform: translate3d(0, -10px, 0); }
+    }
+
+    @keyframes floatB {
+      0%, 100% { transform: translate3d(0, 0, 0); }
+      50% { transform: translate3d(0, 9px, 0); }
+    }
+
+    @keyframes dash {
+      to { stroke-dashoffset: -260; }
+    }
+
+    @keyframes blink {
+      0%, 45% { opacity: 1; }
+      46%, 100% { opacity: 0; }
+    }
+
+    @keyframes spark {
+      0%, 100% { opacity: .25; transform: scale(.9); }
+      45%, 55% { opacity: 1; transform: scale(1.18); }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .pulse,
+      .scan,
+      .float-a,
+      .float-b,
+      .dash,
+      .cursor,
+      .spark {
+        animation: none;
+      }
+    }
+  </style>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#08111f"/>
+      <stop offset=".45" stop-color="#101827"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="0" y2="148" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2dd4bf" stop-opacity="0"/>
+      <stop offset=".45" stop-color="#2dd4bf" stop-opacity=".35"/>
+      <stop offset=".5" stop-color="#fbbf24" stop-opacity=".85"/>
+      <stop offset=".55" stop-color="#2dd4bf" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#2dd4bf" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="softGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(906 79) rotate(125) scale(287 428)">
+      <stop stop-color="#2dd4bf" stop-opacity=".34"/>
+      <stop offset=".55" stop-color="#60a5fa" stop-opacity=".1"/>
+      <stop offset="1" stop-color="#0b1020" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="pageClip">
+      <rect x="72" y="70" width="214" height="228" rx="18"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="28" fill="url(#softGlow)"/>
+
+  <g opacity=".55">
+    <path class="grid-line" d="M80 36V324"/>
+    <path class="grid-line" d="M160 36V324"/>
+    <path class="grid-line" d="M240 36V324"/>
+    <path class="grid-line" d="M320 36V324"/>
+    <path class="grid-line" d="M400 36V324"/>
+    <path class="grid-line" d="M480 36V324"/>
+    <path class="grid-line" d="M560 36V324"/>
+    <path class="grid-line" d="M640 36V324"/>
+    <path class="grid-line" d="M720 36V324"/>
+    <path class="grid-line" d="M800 36V324"/>
+    <path class="grid-line" d="M880 36V324"/>
+    <path class="grid-line" d="M960 36V324"/>
+    <path class="grid-line" d="M1040 36V324"/>
+    <path class="grid-line" d="M1120 36V324"/>
+    <path class="grid-line" d="M36 80H1164"/>
+    <path class="grid-line" d="M36 160H1164"/>
+    <path class="grid-line" d="M36 240H1164"/>
+    <path class="grid-line" d="M36 320H1164"/>
+  </g>
+
+  <g class="float-a">
+    <rect x="72" y="70" width="214" height="228" rx="18" fill="#f8fafc" opacity=".96"/>
+    <path d="M238 70L286 118H250C243.373 118 238 112.627 238 106V70Z" fill="#d9e2f0"/>
+    <g clip-path="url(#pageClip)">
+      <rect class="scan" x="72" y="70" width="214" height="148" fill="url(#beam)"/>
+      <rect x="98" y="116" width="76" height="10" rx="5" fill="#0f172a" opacity=".72"/>
+      <rect x="98" y="144" width="142" height="9" rx="4.5" fill="#334155" opacity=".68"/>
+      <rect x="98" y="170" width="112" height="9" rx="4.5" fill="#334155" opacity=".52"/>
+      <rect x="98" y="196" width="138" height="9" rx="4.5" fill="#334155" opacity=".58"/>
+      <rect x="98" y="226" width="78" height="9" rx="4.5" fill="#334155" opacity=".46"/>
+      <rect x="188" y="226" width="46" height="9" rx="4.5" fill="#334155" opacity=".46"/>
+      <rect x="98" y="254" width="128" height="9" rx="4.5" fill="#334155" opacity=".42"/>
+    </g>
+    <rect x="72" y="70" width="214" height="228" rx="18" stroke="#2dd4bf" stroke-opacity=".45" stroke-width="2"/>
+  </g>
+
+  <g class="float-b">
+    <text x="340" y="88" class="micro">LOCAL-FIRST PIPELINE</text>
+    <text x="340" y="147" class="title">Document Engineering</text>
+    <text x="340" y="190" class="subtitle">OCR, searchable PDFs, Zotero workflows, local AI tools</text>
+    <text x="340" y="231" class="small" fill="#84cc16">scan</text>
+    <text x="394" y="231" class="small" fill="#8fa3bf">-></text>
+    <text x="430" y="231" class="small" fill="#2dd4bf">OCR</text>
+    <text x="478" y="231" class="small" fill="#8fa3bf">-></text>
+    <text x="514" y="231" class="small" fill="#fbbf24">hOCR</text>
+    <text x="574" y="231" class="small" fill="#8fa3bf">-></text>
+    <text x="610" y="231" class="small" fill="#60a5fa">PDF</text>
+    <text x="658" y="231" class="small" fill="#8fa3bf">-></text>
+    <text x="694" y="231" class="small" fill="#fb7185">RAG</text>
+    <rect class="cursor" x="744" y="212" width="12" height="28" rx="3" fill="#e5eefb"/>
+  </g>
+
+  <g transform="translate(836 116)">
+    <path class="wire dash" d="M0 54C54 8 104 8 156 54S258 100 318 54" />
+    <g class="node-glow pulse">
+      <rect class="node" x="0" y="24" width="92" height="60" rx="16"/>
+      <text class="label" x="22" y="61">OCR</text>
+    </g>
+    <g class="node-glow pulse" style="animation-delay:.7s">
+      <rect class="node" x="112" y="24" width="92" height="60" rx="16"/>
+      <text class="label" x="136" y="61">hOCR</text>
+    </g>
+    <g class="node-glow pulse" style="animation-delay:1.4s">
+      <rect class="node" x="224" y="24" width="92" height="60" rx="16"/>
+      <text class="label" x="250" y="61">PDF</text>
+    </g>
+  </g>
+
+  <g opacity=".9">
+    <circle class="spark" cx="1012" cy="86" r="5" fill="#2dd4bf"/>
+    <circle class="spark two" cx="1090" cy="268" r="6" fill="#fbbf24"/>
+    <circle class="spark three" cx="775" cy="286" r="4.5" fill="#fb7185"/>
+  </g>
+
+  <rect x="0.75" y="0.75" width="1198.5" height="358.5" rx="27.25" stroke="rgba(229,238,251,.18)" stroke-width="1.5"/>
+</svg>

@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/profile-banner.svg" alt="Animated banner for NixWrk document engineering, OCR pipelines, searchable PDFs, Zotero automation, and local AI tooling" />
+</p>
+
 <h1 align="center">NixWrk</h1>
 
 <p align="center">
@@ -15,6 +19,15 @@
 </p>
 
 > I build local-first tools for converting scanned documents, PDFs, and academic collections into searchable, structured, reproducible knowledge assets.
+
+## About
+
+I work on practical document-engineering systems: OCR pipelines, searchable PDFs, academic-library automation, and local-first AI tooling. Most of my projects are built around one idea: keep the workflow reproducible, inspectable, and useful on a local machine before adding external services.
+
+- I like tools that turn messy document collections into structured knowledge.
+- I care about OCR geometry, hOCR, PDF assembly, metadata, and traceability.
+- I build Windows-friendly GUI/CLI utilities for workflows that usually live as fragile scripts.
+- I am exploring local LLM workflows for translation, review, orchestration, and RAG-ready document preparation.
 
 ## Core Domains
 
@@ -139,11 +152,39 @@ Secondary work includes GUI wrappers, local workflow launchers, book/PDF savers,
   <img height="165" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NixWrk&layout=compact&theme=transparent&hide_border=true&hide=html,css" />
 </p>
 
+## Support
+
+If these tools save you time, support links can be added here once the public accounts are connected.
+
+<!--
+Optional support links to enable when account handles are ready:
+
+<a href="https://github.com/sponsors/NixWrk">
+  <img alt="GitHub Sponsors" src="https://img.shields.io/badge/GitHub-Sponsors-ea4aaa?style=flat-square&logo=githubsponsors&logoColor=white" />
+</a>
+
+<a href="https://www.buymeacoffee.com/YOUR_HANDLE">
+  <img alt="Buy Me a Coffee" src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-support-ffdd00?style=flat-square&logo=buymeacoffee&logoColor=111111" />
+</a>
+
+<a href="https://ko-fi.com/YOUR_HANDLE">
+  <img alt="Ko-fi" src="https://img.shields.io/badge/Ko--fi-support-ff5e5b?style=flat-square&logo=kofi&logoColor=white" />
+</a>
+-->
+
 ## Contact
 
 - GitHub: [@NixWrk](https://github.com/NixWrk)
+- International identity: add LinkedIn and ORCID once public profiles are ready.
 - Best project contact path: open an issue in the relevant repository.
 - Collaboration focus: OCR/PDF automation, Zotero workflows, local AI tooling, information extraction, and RAG-ready document pipelines.
+
+<!--
+Optional international contact links to enable when the exact URLs are available:
+
+- LinkedIn: https://www.linkedin.com/in/YOUR_HANDLE/
+- ORCID: https://orcid.org/0000-0000-0000-0000
+-->
 
 ## Contribution Activity
 
