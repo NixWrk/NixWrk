@@ -1,0 +1,2984 @@
+{
+  "audited_at": "2026-10-07",
+  "timezone": "Europe/Moscow",
+  "owner": "NixWrk",
+  "profile_repository": {
+    "url": "https://github.com/NixWrk/NixWrk",
+    "local_path": "J:/NIX/WRK/Code/CV",
+    "branch": "main",
+    "head": "722dd21b457dc5dd9b243dcdd08f830d8cdf37a4",
+    "pull_result": "Already up to date."
+  },
+  "scope": {
+    "owned_repositories_reviewed": 23,
+    "public_repositories": 22,
+    "private_repositories_reviewed": 1,
+    "private_repository_details_included": false,
+    "review": "Profile rendering, repository metadata, README, root structure, test and workflow listings, releases, selected CI runs. Applications were not run."
+  },
+  "summary": {
+    "public_missing_description": 20,
+    "public_missing_topics": 21,
+    "public_with_detected_root_license": 4,
+    "public_code_without_detected_root_license": 17,
+    "public_repositories_with_releases": 1
+  },
+  "profile": {
+    "pinned": [
+      "Surya_Chandra_PDF_OCR",
+      "Claude_Code_Local_LLM_Switcher_LM_Studio",
+      "OCRmyPDF_Plugins_HUB",
+      "Zotero_Integration_Metadata_Mapping"
+    ],
+    "missing_link": {
+      "url": "https://github.com/NixWrk/ZoteroPDF_2_MD",
+      "http_status": 404
+    },
+    "banner": "Loaded; diagram overlaps heading and subtitle in desktop screenshot.",
+    "external_images": "Stats, top languages and snake loaded during browser inspection.",
+    "snake_latest_run": {
+      "conclusion": "success",
+      "url": "https://github.com/NixWrk/NixWrk/actions/runs/37568813178"
+    }
+  },
+  "repositories": [
+    {
+      "name": "Chandra_OCRmyPDF_Plugin",
+      "url": "https://github.com/NixWrk/Chandra_OCRmyPDF_Plugin",
+      "visibility": "public",
+      "default_branch": "main",
+      "head_sha": "c6b494a9121b9ce8a59d2738090c00edebbff5bf",
+      "head_committed_at": "2026-03-25T11:10:15Z",
+      "repository_last_push_at": "2026-03-25T11:10:17Z",
+      "description": null,
+      "topics": [],
+      "detected_license": null,
+      "language": "Python",
+      "readme": {
+        "path": "README.md",
+        "blob_sha": "95da2727a92d33e3581c1e14836c5ed0ac17bcd2",
+        "characters": 680,
+        "headings": [
+          "# ocrmypdf-chandra",
+          "## What it does",
+          "## Local development install",
+          "## CLI usage with OCRmyPDF",
+          "## Notes"
+        ],
+        "images": []
+      },
+      "root_entries": [
+        {
+          "path": "README.md",
+          "type": "file",
+          "size_bytes": 680
+        },
+        {
+          "path": "ocrmypdf_chandra",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "pyproject.toml",
+          "type": "file",
+          "size_bytes": 472
+        }
+      ],
+      "workflows": [],
+      "root_test_entries": [],
+      "releases": [],
+      "latest_main_ci": null,
+      "failing_jobs": []
+    },
+    {
+      "name": "Claude_Code_Local_LLM_Switcher_LM_Studio",
+      "url": "https://github.com/NixWrk/Claude_Code_Local_LLM_Switcher_LM_Studio",
+      "visibility": "public",
+      "default_branch": "master",
+      "head_sha": "f871a3ff57fc8c727d0d2dc270a05ac567e4f68b",
+      "head_committed_at": "2026-10-06T11:27:00Z",
+      "repository_last_push_at": "2026-10-06T12:08:23Z",
+      "description": null,
+      "topics": [],
+      "detected_license": null,
+      "language": "PowerShell",
+      "readme": {
+        "path": "README.md",
+        "blob_sha": "18f9713b8ba53b0713e7c25cdb9543923ff9316f",
+        "characters": 21490,
+        "headings": [
+          "# Claude Code Local Model Switcher (Windows)",
+          "## Supported backends",
+          "## Requirements",
+          "## Quick start",
+          "## Isolation boundaries",
+          "## Models, context and sorting",
+          "### Unload all models, including an unresponsive engine",
+          "# Graceful unload, automatically falling back to emergency stop",
+          "# Skip the API when an engine is already known to be hung",
+          "## OpenAI adapter limitations",
+          "## CLI examples",
+          "# Show Ollama catalog, largest first",
+          "# Bind an installed Ollama model, preserving its original tag",
+          "# Configure another local server (URL ending in /v1 is normalized)",
+          "# Bind a generic server model by its catalog ID",
+          "# Validate tool calling on the saved binding",
+          "# Inspect setup or account B launch without writing state/opening windows",
+          "# Inspect chat reset targets; close both account B windows before an actual reset",
+          "## Files and validation"
+        ],
+        "images": []
+      },
+      "root_entries": [
+        {
+          "path": ".gitignore",
+          "type": "file",
+          "size_bytes": 77
+        },
+        {
+          "path": "README.md",
+          "type": "file",
+          "size_bytes": 21770
+        },
+        {
+          "path": "account_status.ps1",
+          "type": "file",
+          "size_bytes": 993
+        },
+        {
+          "path": "gui_workflow.ps1",
+          "type": "file",
+          "size_bytes": 9288
+        },
+        {
+          "path": "launch_claude_local_vscode.ps1",
+          "type": "file",
+          "size_bytes": 6205
+        },
+        {
+          "path": "lmstudio_alias_switcher_gui.ps1",
+          "type": "file",
+          "size_bytes": 2869
+        },
+        {
+          "path": "local_switcher_core.ps1",
+          "type": "file",
+          "size_bytes": 25261
+        },
+        {
+          "path": "local_switcher_gui.ps1",
+          "type": "file",
+          "size_bytes": 51986
+        },
+        {
+          "path": "openai_bridge.py",
+          "type": "file",
+          "size_bytes": 16401
+        },
+        {
+          "path": "prepare_windows.ps1",
+          "type": "file",
+          "size_bytes": 2689
+        },
+        {
+          "path": "reset_local_chats.ps1",
+          "type": "file",
+          "size_bytes": 2329
+        },
+        {
+          "path": "run_local_vscode.cmd",
+          "type": "file",
+          "size_bytes": 133
+        },
+        {
+          "path": "run_login_account_b.cmd",
+          "type": "file",
+          "size_bytes": 148
+        },
+        {
+          "path": "run_prepare.cmd",
+          "type": "file",
+          "size_bytes": 122
+        },
+        {
+          "path": "run_reset_local_chats.cmd",
+          "type": "file",
+          "size_bytes": 124
+        },
+        {
+          "path": "run_switcher_gui.cmd",
+          "type": "file",
+          "size_bytes": 139
+        },
+        {
+          "path": "runtime_control.ps1",
+          "type": "file",
+          "size_bytes": 5832
+        },
+        {
+          "path": "tests",
+          "type": "dir",
+          "size_bytes": 0
+        }
+      ],
+      "workflows": [],
+      "root_test_entries": [
+        "tests/preview-models.json",
+        "tests/test_bridge.py",
+        "tests/test_core.ps1",
+        "tests/test_gui_workflow.ps1",
+        "tests/test_interactive_errors.ps1",
+        "tests/test_interactive_flow.ps1",
+        "tests/test_providers_http.py",
+        "tests/test_runtime_control.ps1"
+      ],
+      "releases": [],
+      "latest_main_ci": null,
+      "failing_jobs": []
+    },
+    {
+      "name": "img_2_pdf",
+      "url": "https://github.com/NixWrk/img_2_pdf",
+      "visibility": "public",
+      "default_branch": "main",
+      "head_sha": "74cd11bd7c3060860dedf05fef780fd6ea36cd0f",
+      "head_committed_at": "2026-07-21T21:40:52Z",
+      "repository_last_push_at": "2026-10-07T06:29:59Z",
+      "description": null,
+      "topics": [],
+      "detected_license": "MIT",
+      "language": "Python",
+      "readme": {
+        "path": "README.md",
+        "blob_sha": "33a71a4ef27695dee0bd9ebb6e4c686bc2981413",
+        "characters": 22485,
+        "headings": [
+          "# UniScan",
+          "## Quick start",
+          "### Run from this source checkout on Windows",
+          "### Run the portable Windows build",
+          "## What the GUI can do",
+          "### Preview, Apply, and export",
+          "### Session recovery",
+          "## Inputs and outputs",
+          "### Supported input",
+          "### Produced output",
+          "## Headless conversion",
+          "### The two PDF DPI roles",
+          "### Geometry and cleanup stages",
+          "## JSON report",
+          "## Atomic output and concurrent writers",
+          "## Stage cache",
+          "## Optional Office Lens ONNX backend",
+          "## Optional PaddleOCR UVDoc",
+          "## Diagnostics and troubleshooting",
+          "## Development and verification",
+          "## Architecture map",
+          "## Known limitations and project status"
+        ],
+        "images": [
+          "![UniScan document workspace](docs/images/workspace-v1.png)"
+        ]
+      },
+      "root_entries": [
+        {
+          "path": ".gitattributes",
+          "type": "file",
+          "size_bytes": 226
+        },
+        {
+          "path": ".github",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": ".gitignore",
+          "type": "file",
+          "size_bytes": 536
+        },
+        {
+          "path": "CHANGELOG.md",
+          "type": "file",
+          "size_bytes": 9702
+        },
+        {
+          "path": "LICENSE",
+          "type": "file",
+          "size_bytes": 1079
+        },
+        {
+          "path": "README.md",
+          "type": "file",
+          "size_bytes": 22485
+        },
+        {
+          "path": "benchmarks",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "camscan_hybrid_tool.py",
+          "type": "file",
+          "size_bytes": 423
+        },
+        {
+          "path": "docs",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "example",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "licenses",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "pyproject.toml",
+          "type": "file",
+          "size_bytes": 1259
+        },
+        {
+          "path": "pytest.ini",
+          "type": "file",
+          "size_bytes": 52
+        },
+        {
+          "path": "run_uniscan.cmd",
+          "type": "file",
+          "size_bytes": 1179
+        },
+        {
+          "path": "scripts",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "src",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "tests",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "uniscan.spec",
+          "type": "file",
+          "size_bytes": 1075
+        }
+      ],
+      "workflows": [
+        ".github/workflows/ci.yml",
+        ".github/workflows/release.yml"
+      ],
+      "root_test_entries": [
+        "tests/conftest.py",
+        "tests/test_batch_pipeline.py",
+        "tests/test_camera_health.py",
+        "tests/test_camera_service.py",
+        "tests/test_capture_session.py",
+        "tests/test_cleanup.py",
+        "tests/test_crop_benchmark.py",
+        "tests/test_dewarp.py",
+        "tests/test_diagnostics.py",
+        "tests/test_exporters.py",
+        "tests/test_geometry.py",
+        "tests/test_geometry_benchmark.py",
+        "tests/test_import_sources.py",
+        "tests/test_layout.py",
+        "tests/test_live_detect.py",
+        "tests/test_loaders.py",
+        "tests/test_loaders_orientation.py",
+        "tests/test_office_lens_adapter.py",
+        "tests/test_office_lens_extended.py",
+        "tests/test_orientation.py",
+        "tests/test_overlays.py",
+        "tests/test_page_store.py",
+        "tests/test_pipeline.py",
+        "tests/test_preprocess.py",
+        "tests/test_processing.py",
+        "tests/test_quality_benchmark.py",
+        "tests/test_release_tools.py",
+        "tests/test_scanner_adapter.py",
+        "tests/test_session_autosave.py",
+        "tests/test_spread.py",
+        "tests/test_stage_cache.py",
+        "tests/test_ui_app_smoke.py",
+        "tests/test_ui_page_parse.py",
+        "tests/test_ui_processing.py"
+      ],
+      "releases": [],
+      "latest_main_ci": {
+        "conclusion": "failure",
+        "head_sha": "74cd11bd7c3060860dedf05fef780fd6ea36cd0f",
+        "current_head": true,
+        "url": "https://github.com/NixWrk/img_2_pdf/actions/runs/31903970616",
+        "created_at": "2026-08-15T19:27:45Z"
+      },
+      "failing_jobs": [
+        {
+          "name": "windows-latest / Python 3.13",
+          "url": "https://github.com/NixWrk/img_2_pdf/actions/runs/31903970616/job/95058865551",
+          "failed_steps": [
+            "Lint"
+          ]
+        },
+        {
+          "name": "ubuntu-latest / Python 3.13",
+          "url": "https://github.com/NixWrk/img_2_pdf/actions/runs/31903970616/job/95058865597",
+          "failed_steps": [
+            "Lint"
+          ]
+        },
+        {
+          "name": "windows-latest / Python 3.11",
+          "url": "https://github.com/NixWrk/img_2_pdf/actions/runs/31903970616/job/95058865645",
+          "failed_steps": [
+            "Lint"
+          ]
+        },
+        {
+          "name": "ubuntu-latest / Python 3.11",
+          "url": "https://github.com/NixWrk/img_2_pdf/actions/runs/31903970616/job/95058865718",
+          "failed_steps": [
+            "Lint"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ISO_Sensitometer_GUI",
+      "url": "https://github.com/NixWrk/ISO_Sensitometer_GUI",
+      "visibility": "public",
+      "default_branch": "main",
+      "head_sha": "b16071eee5927bb450644b37b59fdd5a73584ca5",
+      "head_committed_at": "2026-03-21T18:44:04Z",
+      "repository_last_push_at": "2026-03-21T18:44:58Z",
+      "description": null,
+      "topics": [],
+      "detected_license": null,
+      "language": "Python",
+      "readme": {
+        "path": "README.md",
+        "blob_sha": "fa96d5783f6dee5e5cb172bafbd139b761aa6cd2",
+        "characters": 5929,
+        "headings": [
+          "# ISO Sensitometer GUI",
+          "## Что это и для кого",
+          "## Вычисляемые параметры",
+          "### Шкала log-экспозиции",
+          "### Параметры по умолчанию",
+          "## Установка",
+          "### Требования",
+          "### Шаги",
+          "# 1. Клонировать репозиторий",
+          "# 2. (Рекомендуется) Создать виртуальное окружение",
+          "# source .venv/bin/activate   # Linux / macOS",
+          "# 3. Установить зависимости",
+          "# 4. Запустить",
+          "## Быстрый старт",
+          "## Интерфейс",
+          "## Интерполяция",
+          "## Структура проекта",
+          "## Ограничения версии 1.0"
+        ],
+        "images": []
+      },
+      "root_entries": [
+        {
+          "path": ".gitignore",
+          "type": "file",
+          "size_bytes": 67
+        },
+        {
+          "path": "README.md",
+          "type": "file",
+          "size_bytes": 9615
+        },
+        {
+          "path": "Sensitometer_v1.0.spec",
+          "type": "file",
+          "size_bytes": 1156
+        },
+        {
+          "path": "main.py",
+          "type": "file",
+          "size_bytes": 330
+        },
+        {
+          "path": "models",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "requirements.txt",
+          "type": "file",
+          "size_bytes": 61
+        },
+        {
+          "path": "run.bat",
+          "type": "file",
+          "size_bytes": 658
+        },
+        {
+          "path": "run.ps1",
+          "type": "file",
+          "size_bytes": 820
+        },
+        {
+          "path": "services",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "ui",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "utils",
+          "type": "dir",
+          "size_bytes": 0
+        }
+      ],
+      "workflows": [],
+      "root_test_entries": [],
+      "releases": [],
+      "latest_main_ci": null,
+      "failing_jobs": []
+    },
+    {
+      "name": "LLM_Task_Orchestration",
+      "url": "https://github.com/NixWrk/LLM_Task_Orchestration",
+      "visibility": "public",
+      "default_branch": "main",
+      "head_sha": "57e9a5dd196922862dce155b73955d60ed890f60",
+      "head_committed_at": "2026-07-23T20:53:22Z",
+      "repository_last_push_at": "2026-07-23T20:53:30Z",
+      "description": null,
+      "topics": [],
+      "detected_license": null,
+      "language": "Python",
+      "readme": {
+        "path": "README.md",
+        "blob_sha": "c93606b0a612094e5bb4d3235d47cf3ddd3740c5",
+        "characters": 17359,
+        "headings": [
+          "# local-llm-orchestrator",
+          "## Architecture",
+          "## Prerequisites",
+          "## Configure LM Studio",
+          "# On the host (keep running; add to Task Scheduler at logon for persistence):",
+          "## Configure This Orchestrator",
+          "## Start",
+          "## Smoke Test",
+          "## Runtime Behavior",
+          "## GPU Control Plane",
+          "## Development",
+          "## Current Scope"
+        ],
+        "images": []
+      },
+      "root_entries": [
+        {
+          "path": ".env.example",
+          "type": "file",
+          "size_bytes": 1952
+        },
+        {
+          "path": ".gitignore",
+          "type": "file",
+          "size_bytes": 152
+        },
+        {
+          "path": "IMPLEMENTATION_PLAN.md",
+          "type": "file",
+          "size_bytes": 13840
+        },
+        {
+          "path": "Idea.md",
+          "type": "file",
+          "size_bytes": 16011
+        },
+        {
+          "path": "PROJECT_CONTEXT.md",
+          "type": "file",
+          "size_bytes": 6400
+        },
+        {
+          "path": "README.md",
+          "type": "file",
+          "size_bytes": 17359
+        },
+        {
+          "path": "config",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "docker-compose.yml",
+          "type": "file",
+          "size_bytes": 7720
+        },
+        {
+          "path": "docs",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "llmoctl.py",
+          "type": "file",
+          "size_bytes": 9044
+        },
+        {
+          "path": "observability",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "orchestrator_client",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "orchestrator_core",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "pyproject.toml",
+          "type": "file",
+          "size_bytes": 1022
+        },
+        {
+          "path": "scripts",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "services",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "tests",
+          "type": "dir",
+          "size_bytes": 0
+        }
+      ],
+      "workflows": [],
+      "root_test_entries": [
+        "tests/__init__.py",
+        "tests/conftest.py",
+        "tests/integration",
+        "tests/support",
+        "tests/test_client.py",
+        "tests/test_core_helpers.py",
+        "tests/test_llmoctl.py",
+        "tests/test_runtime_timeouts.py"
+      ],
+      "releases": [],
+      "latest_main_ci": null,
+      "failing_jobs": []
+    },
+    {
+      "name": "LLM_translator_test",
+      "url": "https://github.com/NixWrk/LLM_translator_test",
+      "visibility": "public",
+      "default_branch": "main",
+      "head_sha": "af1035f976060bb4f80ed571b25cd566a9f9161d",
+      "head_committed_at": "2026-03-27T13:22:01Z",
+      "repository_last_push_at": "2026-03-28T06:52:40Z",
+      "description": null,
+      "topics": [],
+      "detected_license": null,
+      "language": null,
+      "readme": {
+        "path": "README.md",
+        "blob_sha": "257f04fd5dc9293fc476e3c3547b20ed6e0b12f2",
+        "characters": 21,
+        "headings": [
+          "# LLM_translator_test"
+        ],
+        "images": []
+      },
+      "root_entries": [
+        {
+          "path": "README.md",
+          "type": "file",
+          "size_bytes": 21
+        }
+      ],
+      "workflows": [],
+      "root_test_entries": [],
+      "releases": [],
+      "latest_main_ci": null,
+      "failing_jobs": []
+    },
+    {
+      "name": "marker_GUI",
+      "url": "https://github.com/NixWrk/marker_GUI",
+      "visibility": "public",
+      "default_branch": "main",
+      "head_sha": "a4fac1d405aed5f83de1341f5da9b82a4f45caca",
+      "head_committed_at": "2026-03-25T21:57:05Z",
+      "repository_last_push_at": "2026-03-25T21:58:41Z",
+      "description": null,
+      "topics": [],
+      "detected_license": null,
+      "language": "Python",
+      "readme": {
+        "path": "README.md",
+        "blob_sha": "6527399a56422477309273f304ce6c10b7c12022",
+        "characters": 1019,
+        "headings": [
+          "## Что делает",
+          "## Требования",
+          "## Запуск",
+          "## Рекомендуемые настройки",
+          "## Примечания"
+        ],
+        "images": []
+      },
+      "root_entries": [
+        {
+          "path": ".gitignore",
+          "type": "file",
+          "size_bytes": 171
+        },
+        {
+          "path": "README.md",
+          "type": "file",
+          "size_bytes": 1464
+        },
+        {
+          "path": "batch_marker_gui.py",
+          "type": "file",
+          "size_bytes": 10388
+        }
+      ],
+      "workflows": [],
+      "root_test_entries": [],
+      "releases": [],
+      "latest_main_ci": null,
+      "failing_jobs": []
+    },
+    {
+      "name": "Miro_2_Obsidian",
+      "url": "https://github.com/NixWrk/Miro_2_Obsidian",
+      "visibility": "public",
+      "default_branch": "main",
+      "head_sha": "1d5dfc32e87d1246e732eefb4ecce47a8c125fd5",
+      "head_committed_at": "2026-09-30T17:14:45Z",
+      "repository_last_push_at": "2026-10-07T06:26:42Z",
+      "description": "Export maximum public Miro board data to Obsidian Canvas with REST + Web SDK provenance, assets, comments, validation, and offline conversion.",
+      "topics": [
+        "backup",
+        "data-export",
+        "json-canvas",
+        "miro",
+        "obsidian",
+        "obsidian-canvas",
+        "python",
+        "web-sdk"
+      ],
+      "detected_license": "MIT",
+      "language": "Python",
+      "readme": {
+        "path": "README.md",
+        "blob_sha": "71c37795bc11a421706f9fa3d0eb7660b08976ee",
+        "characters": 14587,
+        "headings": [
+          "# Miro to Obsidian Canvas",
+          "## What it does",
+          "## Status",
+          "## Data flow",
+          "## Requirements",
+          "## Installation",
+          "### Ready-made builds",
+          "### From source",
+          "### Coding agents",
+          "## Quick start",
+          "### Convert an existing JSON export",
+          "### Use the desktop GUI",
+          "### Choose an output format",
+          "### Shared attachments",
+          "### Export maximum public-API data",
+          "## Source completeness",
+          "## Validation",
+          "## Repository layout",
+          "## Documentation",
+          "## Security",
+          "## License"
+        ],
+        "images": []
+      },
+      "root_entries": [
+        {
+          "path": ".agents",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": ".gitattributes",
+          "type": "file",
+          "size_bytes": 195
+        },
+        {
+          "path": ".github",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": ".gitignore",
+          "type": "file",
+          "size_bytes": 584
+        },
+        {
+          "path": ".miro_oauth.local.example.json",
+          "type": "file",
+          "size_bytes": 188
+        },
+        {
+          "path": "AGENTS.md",
+          "type": "file",
+          "size_bytes": 4200
+        },
+        {
+          "path": "CLAUDE.md",
+          "type": "file",
+          "size_bytes": 240
+        },
+        {
+          "path": "CONTRIBUTING.md",
+          "type": "file",
+          "size_bytes": 2205
+        },
+        {
+          "path": "GEMINI.md",
+          "type": "file",
+          "size_bytes": 239
+        },
+        {
+          "path": "Json_2_Canvas",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "LICENSE",
+          "type": "file",
+          "size_bytes": 1063
+        },
+        {
+          "path": "Miro_2_Json",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "Miro_2_Obsidian_GUI.py",
+          "type": "file",
+          "size_bytes": 47521
+        },
+        {
+          "path": "README.md",
+          "type": "file",
+          "size_bytes": 14591
+        },
+        {
+          "path": "README.ru.md",
+          "type": "file",
+          "size_bytes": 19070
+        },
+        {
+          "path": "ROADMAP.md",
+          "type": "file",
+          "size_bytes": 7124
+        },
+        {
+          "path": "SECURITY.md",
+          "type": "file",
+          "size_bytes": 2111
+        },
+        {
+          "path": "THIRD_PARTY_NOTICES.md",
+          "type": "file",
+          "size_bytes": 2069
+        },
+        {
+          "path": "docs",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "miro2obsidian",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "pyproject.toml",
+          "type": "file",
+          "size_bytes": 1410
+        },
+        {
+          "path": "release",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "requirements-dev.txt",
+          "type": "file",
+          "size_bytes": 81
+        },
+        {
+          "path": "requirements.txt",
+          "type": "file",
+          "size_bytes": 57
+        },
+        {
+          "path": "scripts",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "tests",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "tools",
+          "type": "dir",
+          "size_bytes": 0
+        }
+      ],
+      "workflows": [
+        ".github/workflows/build.yml",
+        ".github/workflows/ci.yml"
+      ],
+      "root_test_entries": [
+        "tests/fixtures",
+        "tests/test_agent_runner.py",
+        "tests/test_attachment_store.py",
+        "tests/test_board_schema.py",
+        "tests/test_browser_bridge.py",
+        "tests/test_browser_setup.py",
+        "tests/test_canvas_zoom_unlock_plugin.py",
+        "tests/test_compare_miro_export_sources.py",
+        "tests/test_converter_file_safety.py",
+        "tests/test_converter_malformed_fields.py",
+        "tests/test_converter_recoverable_content.py",
+        "tests/test_credential_store.py",
+        "tests/test_fixture_regressions.py",
+        "tests/test_item_node_mapping_audit.py",
+        "tests/test_json_to_canvas_gui_helpers.py",
+        "tests/test_merge_miro_sources.py",
+        "tests/test_miro_capability_probe.py",
+        "tests/test_miro_comment_probe.py",
+        "tests/test_miro_download_worker.py",
+        "tests/test_miro_downloader_boards.py",
+        "tests/test_miro_downloader_pagination.py",
+        "tests/test_miro_downloader_security.py",
+        "tests/test_miro_export_bundle.py",
+        "tests/test_miro_gui_auth.py",
+        "tests/test_miro_json_gui_helpers.py",
+        "tests/test_miro_list_boards.py",
+        "tests/test_miro_model.py",
+        "tests/test_miro_oauth_token.py",
+        "tests/test_miro_obsidian_gui_helpers.py",
+        "tests/test_miro_pipeline.py",
+        "tests/test_miro_rest_export_board.py",
+        "tests/test_miro_rest_probe_board.py",
+        "tests/test_miro_slide_probe.py",
+        "tests/test_miro_source_expansion_workflow.py",
+        "tests/test_miro_table_probe.py",
+        "tests/test_miro_websdk_exporter_assets.py",
+        "tests/test_missing_items_audit.py",
+        "tests/test_node_overlap_audit.py",
+        "tests/test_oauth_callback_single_winner.py",
+        "tests/test_obsidian_plugin_path_guards.py",
+        "tests/test_obsidian_plugin_setup.py",
+        "tests/test_obsidian_vault_settings.py",
+        "tests/test_output_formats.py",
+        "tests/test_regression_entrypoint.py",
+        "tests/test_retry_after_bounds.py",
+        "tests/test_scale_engine.py",
+        "tests/test_table_source_evidence.py",
+        "tests/test_text_layout.py",
+        "tests/test_web_board_pipeline_audit.py",
+        "tests/test_websdk_capture_completeness_runtime.py",
+        "tests/test_websdk_serialization_runtime.py",
+        "tests/websdk_capture_completeness_smoke.js",
+        "tests/websdk_serialization_smoke.js"
+      ],
+      "releases": [],
+      "latest_main_ci": {
+        "conclusion": "success",
+        "head_sha": "1d5dfc32e87d1246e732eefb4ecce47a8c125fd5",
+        "current_head": true,
+        "url": "https://github.com/NixWrk/Miro_2_Obsidian/actions/runs/36750026978",
+        "created_at": "2026-09-30T17:14:57Z"
+      },
+      "failing_jobs": []
+    },
+    {
+      "name": "mrf.museumart.ru-pdf_book_saver",
+      "url": "https://github.com/NixWrk/mrf.museumart.ru-pdf_book_saver",
+      "visibility": "public",
+      "default_branch": "main",
+      "head_sha": "698ab8b86944768d9ef177048c600b801ca5c144",
+      "head_committed_at": "2025-10-02T15:26:59Z",
+      "repository_last_push_at": "2025-10-02T15:27:44Z",
+      "description": null,
+      "topics": [],
+      "detected_license": null,
+      "language": "Python",
+      "readme": {
+        "path": "README.md",
+        "blob_sha": "70c3a2aa5a7cf1fbf342772ca27066701f8fdc72",
+        "characters": 33,
+        "headings": [
+          "# mrf.museumart.ru-pdf_book_saver"
+        ],
+        "images": []
+      },
+      "root_entries": [
+        {
+          "path": "README.md",
+          "type": "file",
+          "size_bytes": 33
+        },
+        {
+          "path": "book_saver.exe",
+          "type": "file",
+          "size_bytes": 33453312
+        },
+        {
+          "path": "book_saver.py",
+          "type": "file",
+          "size_bytes": 9473
+        }
+      ],
+      "workflows": [],
+      "root_test_entries": [],
+      "releases": [],
+      "latest_main_ci": null,
+      "failing_jobs": []
+    },
+    {
+      "name": "NixWrk",
+      "url": "https://github.com/NixWrk/NixWrk",
+      "visibility": "public",
+      "default_branch": "main",
+      "head_sha": "722dd21b457dc5dd9b243dcdd08f830d8cdf37a4",
+      "head_committed_at": "2026-06-10T18:48:49Z",
+      "repository_last_push_at": "2026-10-07T03:53:16Z",
+      "description": null,
+      "topics": [],
+      "detected_license": null,
+      "language": null,
+      "readme": {
+        "path": "README.md",
+        "blob_sha": "fe784541744e6eea400ff3ae4c4f94263dd12c3e",
+        "characters": 10394,
+        "headings": [
+          "## About",
+          "## Core Domains",
+          "## Featured Engineering Projects",
+          "## OCR and Searchable PDF Ecosystem",
+          "## PDF Processing and Document Preprocessing",
+          "## Zotero and Academic Workflows",
+          "## Local AI and Self-Hosted Tooling",
+          "## Automation and Research Utilities",
+          "## Technical Stack",
+          "## Engineering Activity",
+          "## Support",
+          "## Contact",
+          "## Contribution Activity"
+        ],
+        "images": [
+          "<img src=\"./assets/profile-banner.svg\" alt=\"Animated banner for NixWrk document engineering, OCR pipelines, searchable PDFs, Zotero automation, and local AI tooling\" />",
+          "<img alt=\"Public repositories\" src=\"https://img.shields.io/badge/GitHub-public%20repos-0f172a?style=flat-square&logo=github\">",
+          "<img alt=\"Python\" src=\"https://img.shields.io/badge/Python-tooling-3776AB?style=flat-square&logo=python&logoColor=white\">",
+          "<img alt=\"OCR\" src=\"https://img.shields.io/badge/OCR-searchable%20PDFs-0f766e?style=flat-square\">",
+          "<img alt=\"Zotero\" src=\"https://img.shields.io/badge/Zotero-academic%20workflows-CC2936?style=flat-square\">",
+          "<img alt=\"Local AI\" src=\"https://img.shields.io/badge/local--first-AI%20tooling-2563eb?style=flat-square\">",
+          "<img height=\"165\" alt=\"GitHub stats\" src=\"https://github-readme-stats.vercel.app/api?username=NixWrk&show_icons=true&theme=transparent&hide_border=true&rank_icon=github\" />",
+          "<img height=\"165\" alt=\"Top languages\" src=\"https://github-readme-stats.vercel.app/api/top-langs/?username=NixWrk&layout=compact&theme=transparent&hide_border=true&hide=html,css\" />",
+          "<img alt=\"GitHub Sponsors\" src=\"https://img.shields.io/badge/GitHub-Sponsors-ea4aaa?style=flat-square&logo=githubsponsors&logoColor=white\" />",
+          "<img alt=\"Buy Me a Coffee\" src=\"https://img.shields.io/badge/Buy%20Me%20a%20Coffee-support-ffdd00?style=flat-square&logo=buymeacoffee&logoColor=111111\" />",
+          "<img alt=\"Ko-fi\" src=\"https://img.shields.io/badge/Ko--fi-support-ff5e5b?style=flat-square&logo=kofi&logoColor=white\" />",
+          "<img alt=\"github-snake\" src=\"https://raw.githubusercontent.com/NixWrk/NixWrk/refs/heads/output/github-contribution-grid-snake.svg\" />"
+        ]
+      },
+      "root_entries": [
+        {
+          "path": ".github",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "README.md",
+          "type": "file",
+          "size_bytes": 10394
+        },
+        {
+          "path": "assets",
+          "type": "dir",
+          "size_bytes": 0
+        }
+      ],
+      "workflows": [
+        ".github/workflows/snake.yml"
+      ],
+      "root_test_entries": [],
+      "releases": [],
+      "latest_main_ci": null,
+      "failing_jobs": []
+    },
+    {
+      "name": "NIX_scientific-evidence-skill",
+      "url": "https://github.com/NixWrk/NIX_scientific-evidence-skill",
+      "visibility": "public",
+      "default_branch": "main",
+      "head_sha": "2c9fd9cf7bbc0eda96eae39772e584dc0cbc7ccc",
+      "head_committed_at": "2026-08-04T19:09:14Z",
+      "repository_last_push_at": "2026-08-22T15:54:33Z",
+      "description": null,
+      "topics": [],
+      "detected_license": null,
+      "language": "Python",
+      "readme": {
+        "path": "README.md",
+        "blob_sha": "d9d22406b61748bfb6072bd98f0fc71a609d4b05",
+        "characters": 9090,
+        "headings": [
+          "# Paper Analyzer Writer Benchmarks",
+          "## Политика выполнения",
+          "## Допустимые задачи",
+          "## Основной принцип",
+          "## Структура",
+          "## Статус",
+          "## Первый milestone"
+        ],
+        "images": []
+      },
+      "root_entries": [
+        {
+          "path": ".gitattributes",
+          "type": "file",
+          "size_bytes": 194
+        },
+        {
+          "path": ".gitignore",
+          "type": "file",
+          "size_bytes": 490
+        },
+        {
+          "path": ".gitmodules",
+          "type": "file",
+          "size_bytes": 111
+        },
+        {
+          "path": "README.md",
+          "type": "file",
+          "size_bytes": 12969
+        },
+        {
+          "path": "docs",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "experiments",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "pyproject.toml",
+          "type": "file",
+          "size_bytes": 419
+        },
+        {
+          "path": "registry",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "schemas",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "skills",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "tests",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "third_party",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "tools",
+          "type": "dir",
+          "size_bytes": 0
+        }
+      ],
+      "workflows": [],
+      "root_test_entries": [
+        "tests/fixtures",
+        "tests/test_audit_skill.py",
+        "tests/test_normalize_zotero_html.py",
+        "tests/test_scientific_evidence_workflow.py",
+        "tests/test_third_party_sources.py",
+        "tests/test_validate_reference_subset.py"
+      ],
+      "releases": [],
+      "latest_main_ci": null,
+      "failing_jobs": []
+    },
+    {
+      "name": "Obsidian-Plugin---Miro-Canvas",
+      "url": "https://github.com/NixWrk/Obsidian-Plugin---Miro-Canvas",
+      "visibility": "public",
+      "default_branch": "main",
+      "head_sha": "5086a37f16d11214f6c511e9b4b55ed5fd5ecc86",
+      "head_committed_at": "2026-10-07T06:28:57Z",
+      "repository_last_push_at": "2026-10-07T06:31:30Z",
+      "description": null,
+      "topics": [],
+      "detected_license": "MIT",
+      "language": "TypeScript",
+      "readme": {
+        "path": "README.md",
+        "blob_sha": "7568f63c463c51a925f5526e5dcbccda8d755ac6",
+        "characters": 27004,
+        "headings": [
+          "# Miro Canvas",
+          "## Contents",
+          "## Getting started",
+          "## Obsidian notes and links",
+          "## Cards, shapes and frames",
+          "## Formatting",
+          "## Arrows and drawing",
+          "## Comments and locking",
+          "## Search and navigation",
+          "## Make it yours",
+          "## Phone and tablet",
+          "## Export",
+          "## Bring boards from Miro and other plugins",
+          "## Files, network use and limitations",
+          "## Installing",
+          "## Reference, plans and development",
+          "### Working on this repository with an AI agent",
+          "## License"
+        ],
+        "images": [
+          "![A sticky note, an Obsidian note and an arrow between them](docs/media/en/sticky-with-note.gif)",
+          "![Explore the welcome board](docs/media/en/welcome-board.gif)",
+          "![Add a note from your vault](docs/media/en/insert-note.gif)",
+          "![Link and embed a note](docs/media/en/obsidian-links.gif)",
+          "![Preview and open another board](docs/media/en/nested-canvas.gif)",
+          "![Create a shape with text](docs/media/en/create-shape.gif)",
+          "![Move a frame with its tasks](docs/media/en/frame-group.gif)",
+          "![Select and move several cards](docs/media/en/select-together.gif)",
+          "![Change font and colour](docs/media/en/format-card.gif)",
+          "![Move a connected card and undo](docs/media/en/move-connected.gif)",
+          "![Draw and erase a stroke](docs/media/en/draw-and-erase.gif)",
+          "![Reply and resolve a comment](docs/media/en/comment-thread.gif)",
+          "![Find a card outside the current view](docs/media/en/board-search.gif)",
+          "![Fold repeatedly and move panels](docs/media/en/panel-folding.gif)",
+          "![Move a toolbar to the side](docs/media/en/arrange-panels.gif)",
+          "![Resize the minimap](docs/media/en/minimap-size.gif)",
+          "![Phone: move a card with touch](docs/media/en/phone-move.gif)",
+          "![Phone: pan and zoom the board](docs/media/en/phone-navigation.gif)",
+          "![Phone: place navigation at the side](docs/media/en/phone-layout.gif)",
+          "![Tablet: move a card with touch](docs/media/en/tablet-move.gif)",
+          "![Tablet: pan and zoom the board](docs/media/en/tablet-navigation.gif)",
+          "![Tablet: turn and move the toolbar](docs/media/en/tablet-layout.gif)",
+          "![Drawing settings, live pressure and finger drawing](docs/media/en/tablet-drawing.gif)",
+          "![Move and resize export pages](docs/media/en/export-page-layout.gif)",
+          "![Arrange pages and save PDF and PowerPoint](docs/media/en/export-pages.gif)"
+        ]
+      },
+      "root_entries": [
+        {
+          "path": ".agents",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": ".claude",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": ".github",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": ".gitignore",
+          "type": "file",
+          "size_bytes": 305
+        },
+        {
+          "path": ".impeccable",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "AGENTS.md",
+          "type": "file",
+          "size_bytes": 7189
+        },
+        {
+          "path": "CHANGELOG.md",
+          "type": "file",
+          "size_bytes": 38330
+        },
+        {
+          "path": "CLAUDE.md",
+          "type": "file",
+          "size_bytes": 140
+        },
+        {
+          "path": "DESIGN.md",
+          "type": "file",
+          "size_bytes": 5922
+        },
+        {
+          "path": "LICENSE",
+          "type": "file",
+          "size_bytes": 1063
+        },
+        {
+          "path": "README.md",
+          "type": "file",
+          "size_bytes": 27072
+        },
+        {
+          "path": "README.ru.md",
+          "type": "file",
+          "size_bytes": 48994
+        },
+        {
+          "path": "THIRD_PARTY_NOTICES.md",
+          "type": "file",
+          "size_bytes": 2929
+        },
+        {
+          "path": "docs",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "esbuild.config.mjs",
+          "type": "file",
+          "size_bytes": 908
+        },
+        {
+          "path": "esbuild.mcp.mjs",
+          "type": "file",
+          "size_bytes": 1969
+        },
+        {
+          "path": "eslint.config.mjs",
+          "type": "file",
+          "size_bytes": 970
+        },
+        {
+          "path": "manifest.json",
+          "type": "file",
+          "size_bytes": 323
+        },
+        {
+          "path": "mcp",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "package-lock.json",
+          "type": "file",
+          "size_bytes": 228437
+        },
+        {
+          "path": "package.json",
+          "type": "file",
+          "size_bytes": 1223
+        },
+        {
+          "path": "requirements-dev.txt",
+          "type": "file",
+          "size_bytes": 341
+        },
+        {
+          "path": "schema",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "scripts",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "src",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "styles.css",
+          "type": "file",
+          "size_bytes": 148568
+        },
+        {
+          "path": "tests",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "tools",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "tsconfig.json",
+          "type": "file",
+          "size_bytes": 501
+        },
+        {
+          "path": "versions.json",
+          "type": "file",
+          "size_bytes": 250
+        },
+        {
+          "path": "vitest.config.ts",
+          "type": "file",
+          "size_bytes": 354
+        }
+      ],
+      "workflows": [
+        ".github/workflows/ci.yml",
+        ".github/workflows/fonts.yml",
+        ".github/workflows/release.yml"
+      ],
+      "root_test_entries": [
+        "tests/advanced-canvas-adapter.test.ts",
+        "tests/anchors.test.ts",
+        "tests/appearance-decoration-observer.test.ts",
+        "tests/appearance.test.ts",
+        "tests/attachment-labels.test.ts",
+        "tests/board-binding.test.ts",
+        "tests/board-clipboard.test.ts",
+        "tests/board-connector-writes.test.ts",
+        "tests/board-connectors.test.ts",
+        "tests/board-export.test.ts",
+        "tests/board-focus.test.ts",
+        "tests/board-search-bar.test.ts",
+        "tests/board-search.test.ts",
+        "tests/board-selection-extensions.test.ts",
+        "tests/board-selection.test.ts",
+        "tests/browser-export.test.ts",
+        "tests/canvas-adapter.test.ts",
+        "tests/canvas-authoring-update-nodes.test.ts",
+        "tests/canvas-authoring.test.ts",
+        "tests/canvas-elements.test.ts",
+        "tests/canvas-ids.test.ts",
+        "tests/canvas-session.test.ts",
+        "tests/comment-markers.test.ts",
+        "tests/comment-thread.test.ts",
+        "tests/comments-panel.test.ts",
+        "tests/compatibility.test.ts",
+        "tests/connector-endpoints.test.ts",
+        "tests/connector-labels.test.ts",
+        "tests/connector-layer.test.ts",
+        "tests/connector-route.test.ts",
+        "tests/connector-style.test.ts",
+        "tests/control-characters.test.ts",
+        "tests/data-validation.test.ts",
+        "tests/device-files.test.ts",
+        "tests/document-viewer.test.ts",
+        "tests/dom-elements.test.ts",
+        "tests/double-tap.test.ts",
+        "tests/drawing.test.ts",
+        "tests/edge-landing.test.ts",
+        "tests/editor-appearance.test.ts",
+        "tests/excalidraw-file.test.ts",
+        "tests/export-files.test.ts",
+        "tests/export-page-controls.test.ts",
+        "tests/export-pages.test.ts",
+        "tests/fixtures",
+        "tests/font-pack-catalogue.test.ts",
+        "tests/font-packs.test.ts",
+        "tests/free-line.test.ts",
+        "tests/helpers",
+        "tests/i18n.test.ts",
+        "tests/import-advanced-canvas.test.ts",
+        "tests/import-common.test.ts",
+        "tests/import-excalidraw.test.ts",
+        "tests/import-guide.test.ts",
+        "tests/import-mindmap.test.ts",
+        "tests/interaction-policy.test.ts",
+        "tests/l20-authoring-dom.test.ts",
+        "tests/layer-order.test.ts",
+        "tests/local-comments.test.ts",
+        "tests/local-items.test.ts",
+        "tests/lz-string.test.ts",
+        "tests/m1-controls-dock.test.ts",
+        "tests/m1-controls-source-inspector.test.ts",
+        "tests/m1-session-board-presses.test.ts",
+        "tests/m1-session-drag-placement.test.ts",
+        "tests/m1-session-label-font.test.ts",
+        "tests/m1-session-large-board.test.ts",
+        "tests/m1-session-layers.test.ts",
+        "tests/m1-session-locking.test.ts",
+        "tests/m1-session-panel-crowding.test.ts",
+        "tests/m1-session-pen.test.ts",
+        "tests/m1-session-persistence.test.ts",
+        "tests/m1-session-picked-cards.test.ts",
+        "tests/m1-session-search.test.ts",
+        "tests/m1-session-toolbar-state.test.ts",
+        "tests/main-platform.test.ts",
+        "tests/metadata-writer.test.ts",
+        "tests/metadata.test.ts",
+        "tests/minimap-model.test.ts",
+        "tests/native-card-styles.test.ts",
+        "tests/native-drag.test.ts",
+        "tests/native-markup-state.test.ts",
+        "tests/native-menu-state.test.ts",
+        "tests/native-style-properties.test.ts",
+        "tests/native-ui-visibility.test.ts",
+        "tests/obsidian-document-host.test.ts",
+        "tests/obsidian-metadata-store.test.ts",
+        "tests/panel-arrange.test.ts",
+        "tests/panel-layout.test.ts",
+        "tests/panel-visibility.test.ts",
+        "tests/pen-tooltips.test.ts",
+        "tests/picked-cards.test.ts",
+        "tests/pointer-bindings.test.ts",
+        "tests/pressure-stroke.test.ts",
+        "tests/quick-tools.test.ts",
+        "tests/schema-fixtures.test.ts",
+        "tests/selection-bounds.test.ts",
+        "tests/selection-handles.test.ts",
+        "tests/selection-toolbar.test.ts",
+        "tests/settings-tab.test.ts",
+        "tests/settings.test.ts",
+        "tests/shape-catalog.test.ts",
+        "tests/shape-geometry.test.ts",
+        "tests/slide-show.test.ts",
+        "tests/source-inspector.test.ts",
+        "tests/source-model.test.ts",
+        "tests/source-renderer.test.ts",
+        "tests/stylesheet-hover.test.ts",
+        "tests/stylus.test.ts",
+        "tests/text-fit.test.ts",
+        "tests/text-format.test.ts",
+        "tests/text-highlight.test.ts",
+        "tests/text-link.test.ts",
+        "tests/text-list.test.ts",
+        "tests/update-check.test.ts",
+        "tests/viewport-controller.test.ts",
+        "tests/welcome-board.test.ts",
+        "tests/welcome-samples.test.ts"
+      ],
+      "releases": [
+        {
+          "tag": "0.2.9",
+          "prerelease": false,
+          "published_at": "2026-10-07T06:32:46Z",
+          "url": "https://github.com/NixWrk/Obsidian-Plugin---Miro-Canvas/releases/tag/0.2.9",
+          "assets": [
+            "main.js",
+            "manifest.json",
+            "miro-canvas-cli.mjs",
+            "miro-canvas-mcp.mjs",
+            "styles.css"
+          ]
+        },
+        {
+          "tag": "0.2.8",
+          "prerelease": false,
+          "published_at": "2026-10-06T22:11:39Z",
+          "url": "https://github.com/NixWrk/Obsidian-Plugin---Miro-Canvas/releases/tag/0.2.8",
+          "assets": [
+            "main.js",
+            "manifest.json",
+            "styles.css"
+          ]
+        },
+        {
+          "tag": "0.2.7",
+          "prerelease": false,
+          "published_at": "2026-10-05T18:10:24Z",
+          "url": "https://github.com/NixWrk/Obsidian-Plugin---Miro-Canvas/releases/tag/0.2.7",
+          "assets": [
+            "main.js",
+            "manifest.json",
+            "styles.css"
+          ]
+        },
+        {
+          "tag": "0.2.6",
+          "prerelease": false,
+          "published_at": "2026-10-05T17:06:25Z",
+          "url": "https://github.com/NixWrk/Obsidian-Plugin---Miro-Canvas/releases/tag/0.2.6",
+          "assets": [
+            "main.js",
+            "manifest.json",
+            "styles.css"
+          ]
+        },
+        {
+          "tag": "0.2.5",
+          "prerelease": false,
+          "published_at": "2026-10-05T16:22:33Z",
+          "url": "https://github.com/NixWrk/Obsidian-Plugin---Miro-Canvas/releases/tag/0.2.5",
+          "assets": [
+            "main.js",
+            "manifest.json",
+            "styles.css"
+          ]
+        },
+        {
+          "tag": "0.2.4",
+          "prerelease": false,
+          "published_at": "2026-10-05T05:58:21Z",
+          "url": "https://github.com/NixWrk/Obsidian-Plugin---Miro-Canvas/releases/tag/0.2.4",
+          "assets": [
+            "main.js",
+            "manifest.json",
+            "styles.css"
+          ]
+        },
+        {
+          "tag": "0.2.3",
+          "prerelease": false,
+          "published_at": "2026-10-04T22:26:50Z",
+          "url": "https://github.com/NixWrk/Obsidian-Plugin---Miro-Canvas/releases/tag/0.2.3",
+          "assets": [
+            "main.js",
+            "manifest.json",
+            "styles.css"
+          ]
+        },
+        {
+          "tag": "0.2.2",
+          "prerelease": false,
+          "published_at": "2026-10-04T14:35:43Z",
+          "url": "https://github.com/NixWrk/Obsidian-Plugin---Miro-Canvas/releases/tag/0.2.2",
+          "assets": [
+            "main.js",
+            "manifest.json",
+            "styles.css"
+          ]
+        },
+        {
+          "tag": "0.2.1",
+          "prerelease": false,
+          "published_at": "2026-10-04T10:20:37Z",
+          "url": "https://github.com/NixWrk/Obsidian-Plugin---Miro-Canvas/releases/tag/0.2.1",
+          "assets": [
+            "main.js",
+            "manifest.json",
+            "styles.css"
+          ]
+        },
+        {
+          "tag": "0.2.0",
+          "prerelease": false,
+          "published_at": "2026-10-01T23:32:25Z",
+          "url": "https://github.com/NixWrk/Obsidian-Plugin---Miro-Canvas/releases/tag/0.2.0",
+          "assets": [
+            "main.js",
+            "manifest.json",
+            "styles.css"
+          ]
+        },
+        {
+          "tag": "0.1.1",
+          "prerelease": false,
+          "published_at": "2026-09-26T11:00:10Z",
+          "url": "https://github.com/NixWrk/Obsidian-Plugin---Miro-Canvas/releases/tag/0.1.1",
+          "assets": [
+            "main.js",
+            "manifest.json",
+            "styles.css"
+          ]
+        },
+        {
+          "tag": "0.1.0",
+          "prerelease": false,
+          "published_at": "2026-09-26T09:48:24Z",
+          "url": "https://github.com/NixWrk/Obsidian-Plugin---Miro-Canvas/releases/tag/0.1.0",
+          "assets": [
+            "main.js",
+            "manifest.json",
+            "styles.css"
+          ]
+        }
+      ],
+      "latest_main_ci": {
+        "conclusion": "success",
+        "head_sha": "5086a37f16d11214f6c511e9b4b55ed5fd5ecc86",
+        "current_head": true,
+        "url": "https://github.com/NixWrk/Obsidian-Plugin---Miro-Canvas/actions/runs/37581739398",
+        "created_at": "2026-10-07T06:29:05Z"
+      },
+      "failing_jobs": []
+    },
+    {
+      "name": "Obsidian_Doctor",
+      "url": "https://github.com/NixWrk/Obsidian_Doctor",
+      "visibility": "public",
+      "default_branch": "main",
+      "head_sha": "5c6947c43e32d36693a71e920c900d7748a93b5d",
+      "head_committed_at": "2026-08-23T00:44:48Z",
+      "repository_last_push_at": "2026-10-05T06:44:57Z",
+      "description": null,
+      "topics": [],
+      "detected_license": null,
+      "language": "Python",
+      "readme": {
+        "path": "README.md",
+        "blob_sha": "78e293b42395559bef3da0813fb5e3bf600474c4",
+        "characters": 19275,
+        "headings": [
+          "# Obsidian Doctor",
+          "## Что это",
+          "## Зачем нужен этот репозиторий",
+          "## Принципы проекта",
+          "### 1. Приоритет существующего хранилища",
+          "### 2. Сначала аудит, потом изменения",
+          "### 3. Безопасность по умолчанию",
+          "### 4. Модульность",
+          "### 5. Учёт исследовательского сценария",
+          "## Какие типовые проблемы решает этот репозиторий",
+          "## 1. Слабая связность заметок",
+          "## 2. Неразрешённые и сломанные ссылки",
+          "## 3. Хаос во вложениях",
+          "## 4. Накопление PDF внутри исследовательского vault",
+          "## 5. Дублирование заметок и файлов",
+          "## 6. Пустые папки после реорганизации",
+          "## Цель репозитория",
+          "## Структура репозитория",
+          "## Куда смотреть дальше",
+          "## Статус (пакет 0.1.0)",
+          "### Быстрый запуск",
+          "### Сравнение с прошлым прогоном",
+          "### Решения",
+          "### Несколько хранилищ за запуск",
+          "# workspace.yaml",
+          "### Исправление",
+          "### Документы и Zotero",
+          "### Подсказки связей",
+          "### Сверка с самим Obsidian",
+          "### Конфигурация и примеры",
+          "### Внешние правила",
+          "### Тесты",
+          "### Текущие ограничения"
+        ],
+        "images": []
+      },
+      "root_entries": [
+        {
+          "path": ".gitattributes",
+          "type": "file",
+          "size_bytes": 363
+        },
+        {
+          "path": ".github",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": ".gitignore",
+          "type": "file",
+          "size_bytes": 227
+        },
+        {
+          "path": "README.md",
+          "type": "file",
+          "size_bytes": 30903
+        },
+        {
+          "path": "app",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "constraints.txt",
+          "type": "file",
+          "size_bytes": 387
+        },
+        {
+          "path": "docs",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "example_config.yaml",
+          "type": "file",
+          "size_bytes": 3003
+        },
+        {
+          "path": "example_report.json",
+          "type": "file",
+          "size_bytes": 37967
+        },
+        {
+          "path": "pyproject.toml",
+          "type": "file",
+          "size_bytes": 1376
+        },
+        {
+          "path": "schemas",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "tests",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "tools",
+          "type": "dir",
+          "size_bytes": 0
+        }
+      ],
+      "workflows": [
+        ".github/workflows/ci.yml"
+      ],
+      "root_test_entries": [
+        "tests/fixtures",
+        "tests/integration",
+        "tests/test_benchmark_synthetic.py",
+        "tests/test_cli.py",
+        "tests/test_cli_fail_on.py",
+        "tests/test_config.py",
+        "tests/test_core_hardening.py",
+        "tests/test_decision_hardening.py",
+        "tests/test_decision_scopes.py",
+        "tests/test_gui.py",
+        "tests/test_gui_apply.py",
+        "tests/test_gui_open_policy.py",
+        "tests/test_gui_workflow.py",
+        "tests/test_hardening.py",
+        "tests/test_json_schemas.py",
+        "tests/test_markdown_hardening.py",
+        "tests/test_markdown_parser.py",
+        "tests/test_observability.py",
+        "tests/test_oracle.py",
+        "tests/test_path_hardening.py",
+        "tests/test_pipeline_hardening.py",
+        "tests/test_plan_schema.py",
+        "tests/test_policy_rules.py",
+        "tests/test_recovery.py",
+        "tests/test_recovery_cli.py",
+        "tests/test_reference_vault.py",
+        "tests/test_repair.py",
+        "tests/test_repair_hardening.py",
+        "tests/test_resolver.py",
+        "tests/test_rule_plugin_selection.py",
+        "tests/test_rule_plugins.py",
+        "tests/test_rule_timings.py",
+        "tests/test_rules.py",
+        "tests/test_scanner_symlink_policy.py",
+        "tests/test_state.py",
+        "tests/test_state_migrations.py",
+        "tests/test_suggestions.py",
+        "tests/test_suggestions_completeness.py",
+        "tests/test_workspace.py",
+        "tests/test_zotero.py",
+        "tests/test_zotero_security.py"
+      ],
+      "releases": [],
+      "latest_main_ci": {
+        "conclusion": "failure",
+        "head_sha": "5c6947c43e32d36693a71e920c900d7748a93b5d",
+        "current_head": true,
+        "url": "https://github.com/NixWrk/Obsidian_Doctor/actions/runs/37273996145",
+        "created_at": "2026-10-05T06:45:02Z"
+      },
+      "failing_jobs": [
+        {
+          "name": "quality (3.11)",
+          "url": "https://github.com/NixWrk/Obsidian_Doctor/actions/runs/37273996145/job/111646877404",
+          "failed_steps": [
+            "Lint"
+          ]
+        },
+        {
+          "name": "headless-smoke",
+          "url": "https://github.com/NixWrk/Obsidian_Doctor/actions/runs/37273996145/job/111646877593",
+          "failed_steps": [
+            "Headless tests from outside source tree"
+          ]
+        },
+        {
+          "name": "quality (3.12)",
+          "url": "https://github.com/NixWrk/Obsidian_Doctor/actions/runs/37273996145/job/111646877694",
+          "failed_steps": [
+            "Lint"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OCRmyPDF_Plugins_HUB",
+      "url": "https://github.com/NixWrk/OCRmyPDF_Plugins_HUB",
+      "visibility": "public",
+      "default_branch": "main",
+      "head_sha": "0a7c7a769b5b2051c31b7c9463e6d41762c07224",
+      "head_committed_at": "2026-03-25T11:30:48Z",
+      "repository_last_push_at": "2026-03-25T11:30:49Z",
+      "description": null,
+      "topics": [],
+      "detected_license": null,
+      "language": "Python",
+      "readme": {
+        "path": "README.md",
+        "blob_sha": "475e7c3b0466271a28d757ca0aae9e3b2be8992f",
+        "characters": 1657,
+        "headings": [
+          "## Included plugin folders",
+          "## Upstream / original references",
+          "## Standalone plugin repositories",
+          "## Notes"
+        ],
+        "images": []
+      },
+      "root_entries": [
+        {
+          "path": "OCRmyPDF-AppleOCR-main_NIX",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "OCRmyPDF-EasyOCR-main_NIX",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "OCRmyPDF-PaddleOCR-main_NIX",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "OCRmypdf_plugins",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "Ocrmypdf+surya_NIX",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "README.md",
+          "type": "file",
+          "size_bytes": 1659
+        },
+        {
+          "path": "ocrmypdf-chandra-main",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "ocrmypdf-doctr-master_NIX",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "ocrmypdf-paddleocr-master_NIX",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "ocrmypdf-surya-main",
+          "type": "dir",
+          "size_bytes": 0
+        }
+      ],
+      "workflows": [],
+      "root_test_entries": [],
+      "releases": [],
+      "latest_main_ci": null,
+      "failing_jobs": []
+    },
+    {
+      "name": "PhD_Disser",
+      "url": "https://github.com/NixWrk/PhD_Disser",
+      "visibility": "public",
+      "default_branch": "Калмыков",
+      "head_sha": "cbfc62a2ebe43df31283fe65da47c0e67f27f063",
+      "head_committed_at": "2026-10-01T11:43:33Z",
+      "repository_last_push_at": "2026-10-05T06:44:33Z",
+      "description": null,
+      "topics": [],
+      "detected_license": null,
+      "language": "Jupyter Notebook",
+      "readme": {
+        "path": "README.md",
+        "blob_sha": "fcc1920acdd4fff69ad8c8cfd3d9e288adbecd90",
+        "characters": 8318,
+        "headings": [
+          "# Проект кандидатской диссертации",
+          "## Каноническая рабочая область",
+          "## Научный отчёт 20.10: локализация боковой сборки",
+          "## 4D-сердце: геометрия и условные оценки УО/ФВ",
+          "## Подтверждённая последовательность исследования",
+          "## Статус папок",
+          "## Текущее ограничение доказательной цепочки",
+          "## Данные и приватность",
+          "## Критические аудиты",
+          "## Литература и Git",
+          "## Литературные электрические свойства тканей"
+        ],
+        "images": []
+      },
+      "root_entries": [
+        {
+          "path": ".gitattributes",
+          "type": "file",
+          "size_bytes": 22311
+        },
+        {
+          "path": ".gitignore",
+          "type": "file",
+          "size_bytes": 1935
+        },
+        {
+          "path": ".vscode",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "3D_Slicer",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "AGENTS.md",
+          "type": "file",
+          "size_bytes": 73421
+        },
+        {
+          "path": "COMSOL_investigation_NIX",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "Colab Notebooks",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "HnL",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "MATLAB_TRKG4_real_subjects",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "Old_code",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "README.md",
+          "type": "file",
+          "size_bytes": 13630
+        },
+        {
+          "path": "Tikhomirov",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "breath geometry",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "output",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "research-report.json",
+          "type": "file",
+          "size_bytes": 978
+        },
+        {
+          "path": "research",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "tools",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "Литературный обзор",
+          "type": "dir",
+          "size_bytes": 0
+        }
+      ],
+      "workflows": [],
+      "root_test_entries": [],
+      "releases": [],
+      "latest_main_ci": null,
+      "failing_jobs": []
+    },
+    {
+      "name": "scholarly-pdf-html-worker",
+      "url": "https://github.com/NixWrk/scholarly-pdf-html-worker",
+      "visibility": "public",
+      "default_branch": "feature/llm-quality-loop",
+      "head_sha": "6959654269a6d21ce4da09367fe0a4f3e43a28b5",
+      "head_committed_at": null,
+      "repository_last_push_at": "2026-07-24T02:40:39Z",
+      "description": null,
+      "topics": [],
+      "detected_license": null,
+      "language": "Python",
+      "readme": {
+        "path": "README.md",
+        "blob_sha": "413ab90d549ef681354f267734aac839a6cd426b",
+        "characters": 9071,
+        "headings": [
+          "# zotero-pdf-html-worker",
+          "## Pipeline",
+          "## Install",
+          "## Clean PDF To Audited Polished HTML",
+          "## Conversion Stage",
+          "## Container Notes",
+          "## Source Layout"
+        ],
+        "images": []
+      },
+      "root_entries": [
+        {
+          "path": ".dockerignore",
+          "type": "file",
+          "size_bytes": 124
+        },
+        {
+          "path": ".gitattributes",
+          "type": "file",
+          "size_bytes": 333
+        },
+        {
+          "path": ".gitignore",
+          "type": "file",
+          "size_bytes": 517
+        },
+        {
+          "path": ".understand-anything",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "Dockerfile",
+          "type": "file",
+          "size_bytes": 2481
+        },
+        {
+          "path": "README.md",
+          "type": "file",
+          "size_bytes": 9071
+        },
+        {
+          "path": "configs",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "docker-compose.example.yml",
+          "type": "file",
+          "size_bytes": 278
+        },
+        {
+          "path": "docs",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "pyproject.toml",
+          "type": "file",
+          "size_bytes": 1864
+        },
+        {
+          "path": "scripts",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "src",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "tests",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "tools",
+          "type": "dir",
+          "size_bytes": 0
+        }
+      ],
+      "workflows": [],
+      "root_test_entries": [
+        "tests/conftest.py",
+        "tests/test_atomic_io.py",
+        "tests/test_audit_citation_style.py",
+        "tests/test_audit_citations.py",
+        "tests/test_audit_command_provenance.py",
+        "tests/test_audit_diagnostics.py",
+        "tests/test_audit_en_polish.py",
+        "tests/test_audit_en_raw.py",
+        "tests/test_audit_figure_caption_ux.py",
+        "tests/test_audit_float_gap.py",
+        "tests/test_audit_frontmatter.py",
+        "tests/test_audit_images.py",
+        "tests/test_audit_manual_patterns.py",
+        "tests/test_audit_manual_recent.py",
+        "tests/test_audit_math_units.py",
+        "tests/test_audit_p04.py",
+        "tests/test_audit_p35.py",
+        "tests/test_audit_p45.py",
+        "tests/test_audit_p61.py",
+        "tests/test_audit_p62.py",
+        "tests/test_audit_p71.py",
+        "tests/test_audit_pdf.py",
+        "tests/test_audit_polish_pair.py",
+        "tests/test_audit_polish_report.py",
+        "tests/test_audit_postprocessors.py",
+        "tests/test_audit_raw_analysis.py",
+        "tests/test_audit_raw_blocks.py",
+        "tests/test_audit_raw_checks.py",
+        "tests/test_audit_raw_images.py",
+        "tests/test_audit_raw_report.py",
+        "tests/test_audit_reference_identity.py",
+        "tests/test_audit_repolish_delta.py",
+        "tests/test_audit_source_language.py",
+        "tests/test_cached_run_state.py",
+        "tests/test_citation_profile.py",
+        "tests/test_citation_profile_recovery.py",
+        "tests/test_clean_pipeline.py",
+        "tests/test_collect_en_polish_review.py",
+        "tests/test_directory_publication.py",
+        "tests/test_email_repair.py",
+        "tests/test_enrichment_snapshot.py",
+        "tests/test_gate_provenance.py",
+        "tests/test_gate_upstream_provenance.py",
+        "tests/test_html_fragment_targets.py",
+        "tests/test_html_images.py",
+        "tests/test_html_links.py",
+        "tests/test_html_stages.py",
+        "tests/test_language_detect.py",
+        "tests/test_llm_quality_loop.py",
+        "tests/test_marker_runner.py",
+        "tests/test_ocr_quality.py",
+        "tests/test_output_state.py",
+        "tests/test_p62_context.py",
+        "tests/test_p62_html.py",
+        "tests/test_p62_marker.py",
+        "tests/test_p62_matching.py",
+        "tests/test_p62_pdf_assets.py",
+        "tests/test_p62_plan.py",
+        "tests/test_p62_recovery_stage.py",
+        "tests/test_pdf_utils.py",
+        "tests/test_pipeline_boundaries.py",
+        "tests/test_pipeline_result_state.py",
+        "tests/test_polish_language.py",
+        "tests/test_quality_loop_analysis_prompt.py",
+        "tests/test_quality_loop_cached_images.py",
+        "tests/test_quality_loop_commands.py",
+        "tests/test_quality_loop_converted_runs.py",
+        "tests/test_quality_loop_observations.py",
+        "tests/test_quality_loop_p62_duplicates.py",
+        "tests/test_quality_loop_pattern_observations.py",
+        "tests/test_quality_loop_pdf_evidence.py",
+        "tests/test_quality_loop_pdf_reference_recovery.py",
+        "tests/test_quality_loop_polish_auto_repair.py",
+        "tests/test_quality_loop_resolver_decisions.py",
+        "tests/test_quality_loop_review_workflow.py",
+        "tests/test_quality_loop_run_utils.py",
+        "tests/test_quality_loop_source_pdf.py",
+        "tests/test_quality_publication_state.py",
+        "tests/test_raw_html_polish_author_year_links.py",
+        "tests/test_raw_html_polish_doi_anchors.py",
+        "tests/test_raw_html_polish_float_units.py",
+        "tests/test_raw_html_polish_frontmatter_footnotes.py",
+        "tests/test_raw_html_polish_html_fragments.py",
+        "tests/test_raw_html_polish_katex.py",
+        "tests/test_raw_html_polish_math_units.py",
+        "tests/test_raw_html_polish_page_furniture.py",
+        "tests/test_raw_html_polish_phases.py",
+        "tests/test_raw_html_polish_pre_cleanup.py",
+        "tests/test_raw_html_polish_presentation.py",
+        "tests/test_raw_html_polish_references_links.py",
+        "tests/test_raw_html_polish_url_anchors.py",
+        "tests/test_raw_html_polish_url_autolink.py",
+        "tests/test_raw_html_polish_url_text_repair.py",
+        "tests/test_record_en_polish_quality_history.py",
+        "tests/test_refactor_article_check.py",
+        "tests/test_repolish_regressions.py",
+        "tests/test_runtime_temp.py",
+        "tests/test_semantic_labels.py",
+        "tests/test_single_file_html.py",
+        "tests/test_stage_contract.py",
+        "tests/test_staging.py",
+        "tests/test_text_cleanup.py",
+        "tests/test_url_repair.py",
+        "tests/test_webdav_uploader.py",
+        "tests/test_zotero_html_attachment.py",
+        "tests/test_zotero_overlay_probe.py",
+        "tests/test_zotero_pending.py",
+        "tests/test_zotero_repository.py"
+      ],
+      "releases": [],
+      "latest_main_ci": null,
+      "failing_jobs": []
+    },
+    {
+      "name": "Surya_Chandra_PDF_OCR",
+      "url": "https://github.com/NixWrk/Surya_Chandra_PDF_OCR",
+      "visibility": "public",
+      "default_branch": "main",
+      "head_sha": "e03830f6ed7759295ff3aa01a87db3af84192df5",
+      "head_committed_at": "2026-08-19T10:38:52Z",
+      "repository_last_push_at": "2026-08-19T10:39:00Z",
+      "description": null,
+      "topics": [],
+      "detected_license": null,
+      "language": "Python",
+      "readme": {
+        "path": "README.md",
+        "blob_sha": "85495347aeacf85844e1762dda2048e84d1bed26",
+        "characters": 24038,
+        "headings": [
+          "# Surya Chandra PDF OCR",
+          "## Should You Use This?",
+          "## Requirements",
+          "## Project Status",
+          "## Last Verified Versions",
+          "## Quick Start: Local GUI",
+          "# For Docker, also copy .env.example to ignored .env and store this UUID there.",
+          "## Verify GPU PyTorch",
+          "## CLI Usage",
+          "## HTTP Service",
+          "# Require Chandra's page-aware geometry sidecar instead of using page-1 fallback.",
+          "# OCR input render DPI used by the basic/web workflow (clamped to 72..400).",
+          "# Set to 0 to disable banded token alignment and use the full dynamic program.",
+          "# JPEG quality for image-only source PDFs; 0 restores lossless pixmap embedding.",
+          "## Docker",
+          "## Runtime Caches",
+          "## Modes",
+          "## Troubleshooting",
+          "## Project Layout",
+          "## Development"
+        ],
+        "images": []
+      },
+      "root_entries": [
+        {
+          "path": ".agents",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": ".dockerignore",
+          "type": "file",
+          "size_bytes": 283
+        },
+        {
+          "path": ".env.example",
+          "type": "file",
+          "size_bytes": 531
+        },
+        {
+          "path": ".gitattributes",
+          "type": "file",
+          "size_bytes": 261
+        },
+        {
+          "path": ".github",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": ".gitignore",
+          "type": "file",
+          "size_bytes": 528
+        },
+        {
+          "path": "AGENTS.md",
+          "type": "file",
+          "size_bytes": 3290
+        },
+        {
+          "path": "Dockerfile",
+          "type": "file",
+          "size_bytes": 4299
+        },
+        {
+          "path": "README.md",
+          "type": "file",
+          "size_bytes": 24038
+        },
+        {
+          "path": "benchmarks",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "constraints",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "docker-compose.shared-network.yml",
+          "type": "file",
+          "size_bytes": 609
+        },
+        {
+          "path": "docker-compose.yml",
+          "type": "file",
+          "size_bytes": 2321
+        },
+        {
+          "path": "docs",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "pyproject.toml",
+          "type": "file",
+          "size_bytes": 1167
+        },
+        {
+          "path": "pytest.ini",
+          "type": "file",
+          "size_bytes": 52
+        },
+        {
+          "path": "run_basic_gui.cmd",
+          "type": "file",
+          "size_bytes": 5055
+        },
+        {
+          "path": "scripts",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "setup_dual_venv.cmd",
+          "type": "file",
+          "size_bytes": 10669
+        },
+        {
+          "path": "src",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "tests",
+          "type": "dir",
+          "size_bytes": 0
+        }
+      ],
+      "workflows": [
+        ".github/workflows/ci.yml"
+      ],
+      "root_test_entries": [
+        "tests/conftest.py",
+        "tests/test_app_searchable_pdf.py",
+        "tests/test_ci_contract.py",
+        "tests/test_dependency_snapshots.py",
+        "tests/test_deployment_contract.py",
+        "tests/test_gpu0_runtime_contract.py",
+        "tests/test_http_pdf_resource_limits_audit.py",
+        "tests/test_loaders.py",
+        "tests/test_ocr_artifact_searchable.py",
+        "tests/test_ocr_benchmark.py",
+        "tests/test_ocr_canonical.py",
+        "tests/test_ocr_engine.py",
+        "tests/test_ocr_page_reconciliation.py",
+        "tests/test_ocr_preprocessing.py",
+        "tests/test_ocr_zero_output_retry.py",
+        "tests/test_preflight_new_pc.py",
+        "tests/test_synthetic_benchmark.py",
+        "tests/test_web_service.py"
+      ],
+      "releases": [],
+      "latest_main_ci": {
+        "conclusion": "failure",
+        "head_sha": "e03830f6ed7759295ff3aa01a87db3af84192df5",
+        "current_head": true,
+        "url": "https://github.com/NixWrk/Surya_Chandra_PDF_OCR/actions/runs/32243711255",
+        "created_at": "2026-08-19T10:39:05Z"
+      },
+      "failing_jobs": [
+        {
+          "name": "Python 3.11 CPU",
+          "url": "https://github.com/NixWrk/Surya_Chandra_PDF_OCR/actions/runs/32243711255/job/96039611444",
+          "failed_steps": [
+            "Ruff"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "surya_hOCR_bridge",
+      "url": "https://github.com/NixWrk/surya_hOCR_bridge",
+      "visibility": "public",
+      "default_branch": "main",
+      "head_sha": "fec7132b07546bfef9c20dfcff7af6dd7c13de59",
+      "head_committed_at": "2026-04-01T11:53:51Z",
+      "repository_last_push_at": "2026-04-01T11:54:50Z",
+      "description": null,
+      "topics": [],
+      "detected_license": "MIT",
+      "language": "Python",
+      "readme": {
+        "path": "README.md",
+        "blob_sha": "18aac6c6de90e0ef61a9cec783938ca135f16923",
+        "characters": 2390,
+        "headings": [
+          "## What Is Included",
+          "## Install",
+          "## CLI",
+          "## Notes",
+          "## License"
+        ],
+        "images": []
+      },
+      "root_entries": [
+        {
+          "path": ".gitignore",
+          "type": "file",
+          "size_bytes": 101
+        },
+        {
+          "path": "LICENSE",
+          "type": "file",
+          "size_bytes": 1059
+        },
+        {
+          "path": "README.md",
+          "type": "file",
+          "size_bytes": 2392
+        },
+        {
+          "path": "docs",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "examples",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "pyproject.toml",
+          "type": "file",
+          "size_bytes": 653
+        },
+        {
+          "path": "src",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "tests",
+          "type": "dir",
+          "size_bytes": 0
+        }
+      ],
+      "workflows": [],
+      "root_test_entries": [
+        "tests/test_artifact_searchable.py",
+        "tests/test_hocr_converter.py"
+      ],
+      "releases": [],
+      "latest_main_ci": null,
+      "failing_jobs": []
+    },
+    {
+      "name": "Surya_OCRmyPDF_Plugin",
+      "url": "https://github.com/NixWrk/Surya_OCRmyPDF_Plugin",
+      "visibility": "public",
+      "default_branch": "main",
+      "head_sha": "264d0268f2c4f66e4175866870aa25f3fb8325d3",
+      "head_committed_at": "2026-03-25T09:11:29Z",
+      "repository_last_push_at": "2026-03-25T09:12:37Z",
+      "description": null,
+      "topics": [],
+      "detected_license": null,
+      "language": "Python",
+      "readme": {
+        "path": "README.md",
+        "blob_sha": "c1e16ece7de2731c5b01fc954bfbae43cf6d6413",
+        "characters": 567,
+        "headings": [
+          "# ocrmypdf-surya",
+          "## Compatibility",
+          "## Local development install"
+        ],
+        "images": []
+      },
+      "root_entries": [
+        {
+          "path": "README.md",
+          "type": "file",
+          "size_bytes": 567
+        },
+        {
+          "path": "ocrmypdf_surya",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "pyproject.toml",
+          "type": "file",
+          "size_bytes": 500
+        }
+      ],
+      "workflows": [],
+      "root_test_entries": [],
+      "releases": [],
+      "latest_main_ci": null,
+      "failing_jobs": []
+    },
+    {
+      "name": "Zotero_Ingest_Worker",
+      "url": "https://github.com/NixWrk/Zotero_Ingest_Worker",
+      "visibility": "public",
+      "default_branch": "master",
+      "head_sha": "f736e8ac9f5de179d61366ffc01d29bd5ed1cd1c",
+      "head_committed_at": "2026-07-20T04:06:48Z",
+      "repository_last_push_at": "2026-07-20T04:07:10Z",
+      "description": null,
+      "topics": [],
+      "detected_license": null,
+      "language": "Python",
+      "readme": {
+        "path": "README.md",
+        "blob_sha": "1d85d8404bdb03001dfb89176e166ff90bc9a22a",
+        "characters": 6733,
+        "headings": [
+          "# Zotero Ingest / Full-Text Workers",
+          "## Article HTML Standard",
+          "## arXiv Source Recovery",
+          "## Source HTML Quality Audit",
+          "## Main Commands",
+          "## Container"
+        ],
+        "images": []
+      },
+      "root_entries": [
+        {
+          "path": ".gitignore",
+          "type": "file",
+          "size_bytes": 78
+        },
+        {
+          "path": ".understand-anything",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "Dockerfile",
+          "type": "file",
+          "size_bytes": 1537
+        },
+        {
+          "path": "README.md",
+          "type": "file",
+          "size_bytes": 6733
+        },
+        {
+          "path": "docker-compose.yml",
+          "type": "file",
+          "size_bytes": 7460
+        },
+        {
+          "path": "pyproject.toml",
+          "type": "file",
+          "size_bytes": 2162
+        },
+        {
+          "path": "repositories",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "scripts",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "tests",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "zotero_ingest_worker",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "zoteropdf2md",
+          "type": "dir",
+          "size_bytes": 0
+        }
+      ],
+      "workflows": [],
+      "root_test_entries": [
+        "tests/test_article_standard.py",
+        "tests/test_arxiv_html_service.py",
+        "tests/test_arxiv_source_recovery.py",
+        "tests/test_bounded_io.py",
+        "tests/test_browser_network_policy.py",
+        "tests/test_bulk_repolish_source_html.py",
+        "tests/test_cancel_contract.py",
+        "tests/test_config.py",
+        "tests/test_drain_full_text_compact.py",
+        "tests/test_filename_safety.py",
+        "tests/test_full_run.py",
+        "tests/test_full_text_attachment.py",
+        "tests/test_full_text_discovery.py",
+        "tests/test_full_text_inventory.py",
+        "tests/test_html_contract.py",
+        "tests/test_ingest_refactor_boundaries.py",
+        "tests/test_local_attachment_sync.py",
+        "tests/test_local_zotero_paths.py",
+        "tests/test_metadata_backlog_scanner.py",
+        "tests/test_metadata_jobs.py",
+        "tests/test_metadata_processor.py",
+        "tests/test_provider_scripts.py",
+        "tests/test_relay_client.py",
+        "tests/test_researchgate_pdf_browser_download.py",
+        "tests/test_researchgate_pdf_job.py",
+        "tests/test_safe_connect_proxy.py",
+        "tests/test_scihub_safe_http.py",
+        "tests/test_service.py",
+        "tests/test_service_actions.py",
+        "tests/test_source_html_audit_cleanup.py",
+        "tests/test_source_html_maintenance.py",
+        "tests/test_source_html_quality_audit.py",
+        "tests/test_state_store.py",
+        "tests/test_web_html_polish.py",
+        "tests/test_worker_roles.py"
+      ],
+      "releases": [],
+      "latest_main_ci": null,
+      "failing_jobs": []
+    },
+    {
+      "name": "Zotero_Integration_Metadata_Mapping",
+      "url": "https://github.com/NixWrk/Zotero_Integration_Metadata_Mapping",
+      "visibility": "public",
+      "default_branch": "main",
+      "head_sha": "f1100ffbc9f41ce720e3e2204d6e233320b5ffbd",
+      "head_committed_at": "2026-03-17T06:53:42Z",
+      "repository_last_push_at": "2026-03-17T06:54:01Z",
+      "description": "Всё что у меня тут есть.",
+      "topics": [],
+      "detected_license": null,
+      "language": "Python",
+      "readme": {
+        "path": "README.md",
+        "blob_sha": "8383b42e42c15e368e09ad5ebd787076e96315db",
+        "characters": 11312,
+        "headings": [
+          "# NIX_Zotero_Obsidian_Metadata_Mapping (RU/EN)",
+          "## RU: Зачем этот репозиторий",
+          "## EN: Why this repository exists",
+          "## RU: Два источника данных — важно понимать разницу",
+          "## EN: Two data sources — important distinction",
+          "## RU: Что здесь считается доказанным",
+          "## EN: What is considered proven here",
+          "## RU: Этапы исследования",
+          "## EN: Research stages",
+          "## RU: Справочные таблицы",
+          "## EN: Reference tables",
+          "## RU: Структура репозитория",
+          "### Скрипты",
+          "### Документация",
+          "### Артефакты",
+          "## EN: Repository structure",
+          "## RU: Быстрый запуск",
+          "### 1) Шаблонные ключи из `/items/new`",
+          "### 2) Детерминированный полный скан библиотеки",
+          "### 3) Строгий режим прав доступа (рекомендуется для CI)",
+          "### 4) GUI: отбор itemType и экспорт таблицы",
+          "# Открой zotero_template_keys.json, отметь нужные типы, экспортируй.",
+          "## EN: Quick start",
+          "### 1) Template keys from `/items/new`",
+          "### 2) Deterministic full-library scan",
+          "### 3) Strict access mode (recommended for CI)",
+          "### 4) GUI: select itemTypes and export matrix",
+          "# Open zotero_template_keys.json, check desired types, export.",
+          "## RU: Как интерпретировать результат скана",
+          "## EN: How to interpret scan results",
+          "## RU: Ограничения",
+          "## EN: Limitations"
+        ],
+        "images": []
+      },
+      "root_entries": [
+        {
+          "path": ".gitignore",
+          "type": "file",
+          "size_bytes": 360
+        },
+        {
+          "path": "Json_items_to_md_table.py",
+          "type": "file",
+          "size_bytes": 9979
+        },
+        {
+          "path": "README.md",
+          "type": "file",
+          "size_bytes": 14132
+        },
+        {
+          "path": "Zotero_all_items_request.py",
+          "type": "file",
+          "size_bytes": 9440
+        },
+        {
+          "path": "Zotero_data_schema.json",
+          "type": "file",
+          "size_bytes": 462157
+        },
+        {
+          "path": "Zotero_full_library_schema.py",
+          "type": "file",
+          "size_bytes": 12118
+        },
+        {
+          "path": "docs",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "main.js",
+          "type": "file",
+          "size_bytes": 1000001
+        },
+        {
+          "path": "selected_items",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "zotero_template_keys.json",
+          "type": "file",
+          "size_bytes": 28640
+        }
+      ],
+      "workflows": [],
+      "root_test_entries": [],
+      "releases": [],
+      "latest_main_ci": null,
+      "failing_jobs": []
+    },
+    {
+      "name": "Zotero_SciHub_module",
+      "url": "https://github.com/NixWrk/Zotero_SciHub_module",
+      "visibility": "public",
+      "default_branch": "main",
+      "head_sha": "1198940a183708146f6989805cd88b41d850a408",
+      "head_committed_at": "2026-06-10T12:40:54Z",
+      "repository_last_push_at": "2026-06-10T12:41:23Z",
+      "description": null,
+      "topics": [],
+      "detected_license": null,
+      "language": "TypeScript",
+      "readme": {
+        "path": "README.md",
+        "blob_sha": "8dd61112153407c9b90164b076576b91bbe26599",
+        "characters": 3323,
+        "headings": [
+          "# Zotero_SciHub_module",
+          "## Language",
+          "## Build",
+          "## Zotero Usage",
+          "## Python Usage",
+          "## Files",
+          "## Note"
+        ],
+        "images": []
+      },
+      "root_entries": [
+        {
+          "path": ".gitattributes",
+          "type": "file",
+          "size_bytes": 19
+        },
+        {
+          "path": ".gitignore",
+          "type": "file",
+          "size_bytes": 50
+        },
+        {
+          "path": "README.md",
+          "type": "file",
+          "size_bytes": 3323
+        },
+        {
+          "path": "package-lock.json",
+          "type": "file",
+          "size_bytes": 1504
+        },
+        {
+          "path": "package.json",
+          "type": "file",
+          "size_bytes": 430
+        },
+        {
+          "path": "python",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "src",
+          "type": "dir",
+          "size_bytes": 0
+        },
+        {
+          "path": "tsconfig.json",
+          "type": "file",
+          "size_bytes": 314
+        }
+      ],
+      "workflows": [],
+      "root_test_entries": [],
+      "releases": [],
+      "latest_main_ci": null,
+      "failing_jobs": []
+    }
+  ]
+}
