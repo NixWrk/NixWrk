@@ -1,64 +1,64 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220" fill="none" role="img" aria-labelledby="title desc">
   <title id="title">NixWrk</title>
-  <desc id="desc">Document lines are read, carried into two notes, and connected into a shared knowledge node. The wordmark stays still; the sequence plays once, then rests.</desc>
+  <desc id="desc">Document lines are read, carried into two notes, and connected into a shared knowledge node. The wordmark stays still; the sequence repeats automatically, with a quiet pause between cycles.</desc>
   <style>
     .trace, .signal, .connection { opacity: 0; }
     .trace {
       stroke-dasharray: 1;
       stroke-dashoffset: 1;
-      animation: read-line 4.8s cubic-bezier(.16, 1, .3, 1) both;
+      animation: read-line 6s cubic-bezier(.16, 1, .3, 1) infinite both;
     }
     .trace-middle { animation-delay: .12s; }
     .trace-bottom { animation-delay: .24s; }
-    .signal-top { animation: carry-top 4.8s cubic-bezier(.16, 1, .3, 1) both; }
-    .signal-bottom { animation: carry-bottom 4.8s cubic-bezier(.16, 1, .3, 1) both; }
+    .signal-top { animation: carry-top 6s cubic-bezier(.16, 1, .3, 1) infinite both; }
+    .signal-bottom { animation: carry-bottom 6s cubic-bezier(.16, 1, .3, 1) infinite both; }
     .connection {
       stroke-dasharray: 1;
       stroke-dashoffset: 1;
-      animation: connect-notes 4.8s cubic-bezier(.16, 1, .3, 1) both;
+      animation: connect-notes 6s cubic-bezier(.16, 1, .3, 1) infinite both;
     }
-    .note-top { animation: receive-top 4.8s ease-out both; }
-    .note-bottom { animation: receive-bottom 4.8s ease-out both; }
-    .result { animation: resolve 4.8s ease-out both; }
+    .note-top { animation: receive-top 6s ease-out infinite both; }
+    .note-bottom { animation: receive-bottom 6s ease-out infinite both; }
+    .result { animation: resolve 6s ease-out infinite both; }
 
     @keyframes read-line {
-      0%, 5% { opacity: 0; stroke-dashoffset: 1; }
-      10% { opacity: 1; stroke-dashoffset: 1; }
-      25%, 30% { opacity: 1; stroke-dashoffset: 0; }
-      40%, 100% { opacity: 0; stroke-dashoffset: 0; }
+      0%, 4% { opacity: 0; stroke-dashoffset: 1; }
+      8% { opacity: 1; stroke-dashoffset: 1; }
+      20%, 24% { opacity: 1; stroke-dashoffset: 0; }
+      32%, 100% { opacity: 0; stroke-dashoffset: 0; }
     }
     @keyframes carry-top {
-      0%, 30% { opacity: 0; transform: translate(0, 0); }
-      34% { opacity: 1; transform: translate(0, 0); }
-      47% { opacity: 1; transform: translate(127px, -34px); }
-      51%, 100% { opacity: 0; transform: translate(127px, -34px); }
+      0%, 24% { opacity: 0; transform: translate(0, 0); }
+      27.2% { opacity: 1; transform: translate(0, 0); }
+      37.6% { opacity: 1; transform: translate(127px, -34px); }
+      40.8%, 100% { opacity: 0; transform: translate(127px, -34px); }
     }
     @keyframes carry-bottom {
-      0%, 35% { opacity: 0; transform: translate(0, 0); }
-      39% { opacity: 1; transform: translate(0, 0); }
-      52% { opacity: 1; transform: translate(127px, 34px); }
-      56%, 100% { opacity: 0; transform: translate(127px, 34px); }
+      0%, 28% { opacity: 0; transform: translate(0, 0); }
+      31.2% { opacity: 1; transform: translate(0, 0); }
+      41.6% { opacity: 1; transform: translate(127px, 34px); }
+      44.8%, 100% { opacity: 0; transform: translate(127px, 34px); }
     }
     @keyframes receive-top {
-      0%, 43% { fill: #75D4C5; }
-      49%, 57% { fill: #EAF3F1; }
-      68%, 100% { fill: #75D4C5; }
+      0%, 34.4% { fill: #75D4C5; }
+      39.2%, 45.6% { fill: #EAF3F1; }
+      54.4%, 100% { fill: #75D4C5; }
     }
     @keyframes receive-bottom {
-      0%, 48% { fill: #75D4C5; }
-      54%, 62% { fill: #EAF3F1; }
-      73%, 100% { fill: #75D4C5; }
+      0%, 38.4% { fill: #75D4C5; }
+      43.2%, 49.6% { fill: #EAF3F1; }
+      58.4%, 100% { fill: #75D4C5; }
     }
     @keyframes connect-notes {
-      0%, 52% { opacity: 0; stroke-dashoffset: 1; }
-      56% { opacity: 1; stroke-dashoffset: 1; }
-      70%, 78% { opacity: 1; stroke-dashoffset: 0; }
-      90%, 100% { opacity: 0; stroke-dashoffset: 0; }
+      0%, 41.6% { opacity: 0; stroke-dashoffset: 1; }
+      44.8% { opacity: 1; stroke-dashoffset: 1; }
+      56%, 62.4% { opacity: 1; stroke-dashoffset: 0; }
+      72%, 100% { opacity: 0; stroke-dashoffset: 0; }
     }
     @keyframes resolve {
-      0%, 66% { fill: #EAF3F1; }
-      74%, 82% { fill: #75D4C5; }
-      96%, 100% { fill: #EAF3F1; }
+      0%, 52.8% { fill: #EAF3F1; }
+      59.2%, 65.6% { fill: #75D4C5; }
+      76.8%, 100% { fill: #EAF3F1; }
     }
     @media (prefers-reduced-motion: reduce) {
       .motion { animation: none; }
